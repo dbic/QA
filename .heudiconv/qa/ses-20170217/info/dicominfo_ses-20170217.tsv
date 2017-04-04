@@ -1,0 +1,5 @@
+12	000001.dcm	1-anat-scout-uncombined	-	-	-	160	160	12	1	0.00315	1.37	anat-scout-uncombined	False	False	QA	dbic^QA		anat-scout-uncombined	('ORIGINAL', 'PRIMARY', 'M', 'ND')	qa	017Y	O	20170217
+23	000001.dcm	2-anat-scout-uncombined	-	-	-	160	160	11	1	0.00315	1.37	anat-scout-uncombined	False	False	QA	dbic^QA		anat-scout-uncombined	('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')	qa	017Y	O	20170217
+28	000001.dcm	9-AAHead_Scout	-	-	-	162	162	5	1	0.00315	1.37	AAHead_Scout	False	True	QA	dbic^QA		AAHead_Scout_MPR_sag	('DERIVED', 'PRIMARY', 'MPR', 'ND', 'NORM')	qa	017Y	O	20170217
+31	000001.dcm	10-AAHead_Scout	-	-	-	162	162	3	1	0.00315	1.37	AAHead_Scout	False	True	QA	dbic^QA		AAHead_Scout_MPR_cor	('DERIVED', 'PRIMARY', 'MPR', 'ND', 'NORM')	qa	017Y	O	20170217
+34	000001.dcm	11-AAHead_Scout	-	-	-	162	162	3	1	0.00315	1.37	AAHead_Scout	False	True	QA	dbic^QA		AAHead_Scout_MPR_tra	('DERIVED', 'PRIMARY', 'MPR', 'ND', 'NORM')	qa	017Y	O	20170217
