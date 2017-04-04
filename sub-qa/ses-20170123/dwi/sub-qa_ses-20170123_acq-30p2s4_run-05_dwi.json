@@ -1,0 +1,23 @@
+{
+  "EchoTime": 0.068, 
+  "RepetitionTime": 3.6, 
+  "MagneticFieldStrength": 3, 
+  "FlipAngle": 90, 
+  "ProcedureStepDescription": "dbic_QA", 
+  "ConversionSoftwareVersion": "v1.0.20170130", 
+  "PhaseEncodingDirection": "j-", 
+  "EffectiveEchoSpacing": 0.000295005, 
+  "AcquisitionDateTime": "2017-01-23T91:04:4.453125", 
+  "ManufacturersModelName": "Prisma", 
+  "ProtocolName": "DTI_30_p2_s4", 
+  "ConversionSoftware": "dcm2niix", 
+  "ImageType": [
+    "ORIGINAL", 
+    "PRIMARY", 
+    "DIFFUSION", 
+    "NONE", 
+    "ND", 
+    "NORM"
+  ], 
+  "Manufacturer": "Siemens"
+}
