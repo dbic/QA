@@ -1,0 +1,6 @@
+* annex.largefiles=(largerthan=100kb)
+*.json annex.largefiles=nothing
+*.txt annex.largefiles=nothing
+*.tsv annex.largefiles=nothing
+*.nii.gz annex.largefiles=(largerthan=0kb)
+*.tgz annex.largefiles=(largerthan=0kb)
