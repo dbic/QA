@@ -1,0 +1,31 @@
+{
+  "AcquisitionDateTime": "2016-11-28T10:18:31.773438", 
+  "CogAtlasID": "TODO", 
+  "ConversionSoftware": "dcm2niix", 
+  "ConversionSoftwareVersion": "v1.0.20170130", 
+  "EchoTime": 0.035, 
+  "EffectiveEchoSpacing": 0.00026, 
+  "FlipAngle": 90, 
+  "MagneticFieldStrength": 3, 
+  "Manufacturer": "Siemens", 
+  "ManufacturersModelName": "Prisma", 
+  "PhaseEncodingDirection": "j-", 
+  "ProcedureStepDescription": "dbic_QA", 
+  "ProtocolName": "BOLD_p2", 
+  "RepetitionTime": 2, 
+  "TaskName": "TODO: full task name for rest", 
+  "dcmmeta_affine": [
+    [-2.9576334953308105, 0.477443128824234, 0.2079724818468094, 90.81829071044922], 
+    [0.5023714303970337, 2.8201513290405273, 1.1853948831558228, -140.1061248779297], 
+    [0.005151680670678616, -0.9048730134963989, 3.8041670322418213, -25.098430633544922], 
+    [0.0, 0.0, 0.0, 1.0]
+], 
+  "dcmmeta_reorient_transform": [
+    [0.0, -1.0, 0.0, 79.0], 
+    [1.0, 0.0, 0.0, 0.0], 
+    [0.0, 0.0, 1.0, 0.0], 
+    [0.0, 0.0, 0.0, 1.0]
+], 
+  "dcmmeta_shape": [80, 80, 30, 157], 
+  "dcmmeta_slice_dim": 2, 
+  "dcmmeta_version": 0.6}
