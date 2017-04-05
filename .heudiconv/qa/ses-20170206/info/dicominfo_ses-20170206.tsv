@@ -1,9 +1,0 @@
-128	000001.dcm	1-AAHead_Scout	-	-	-	160	160	128	1	0.00315	1.37	AAHead_Scout	False	False	QA	dbic^QA		AAHead_Scout	('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')	qa	017Y	O	20170206
-133	000001.dcm	2-AAHead_Scout	-	-	-	162	162	5	1	0.00315	1.37	AAHead_Scout	False	True	QA	dbic^QA		AAHead_Scout_MPR_sag	('DERIVED', 'PRIMARY', 'MPR', 'ND', 'NORM')	qa	017Y	O	20170206
-136	000001.dcm	3-AAHead_Scout	-	-	-	162	162	3	1	0.00315	1.37	AAHead_Scout	False	True	QA	dbic^QA		AAHead_Scout_MPR_cor	('DERIVED', 'PRIMARY', 'MPR', 'ND', 'NORM')	qa	017Y	O	20170206
-139	000001.dcm	4-AAHead_Scout	-	-	-	162	162	3	1	0.00315	1.37	AAHead_Scout	False	True	QA	dbic^QA		AAHead_Scout_MPR_tra	('DERIVED', 'PRIMARY', 'MPR', 'ND', 'NORM')	qa	017Y	O	20170206
-296	000001.dcm	5-BOLD_p2	-	-	-	80	80	30	157	2.0	35.0	BOLD_p2	False	False	QA	dbic^QA		BOLD_p2	('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM', 'MOSAIC')	qa	017Y	O	20170206
-453	000001.dcm	7-BOLD_p2_s4_3.5mm	-	-	-	80	80	32	157	2.0	35.0	BOLD_p2_s4_3.5mm	False	False	QA	dbic^QA		BOLD_p2_s4_3.5mm	('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM', 'MOSAIC')	qa	017Y	O	20170206
-610	000001.dcm	8-BOLD_p2_noprescannormalize	-	-	-	80	80	30	157	2.0	35.0	BOLD_p2_noprescannormalize	False	False	QA	dbic^QA		BOLD_p2_noprescannormalize	('ORIGINAL', 'PRIMARY', 'M', 'ND', 'MOSAIC')	qa	017Y	O	20170206
-2780	000001.dcm	10-DTI_30_p2	-	-	-	122	122	2170	1	7.7	75.0	DTI_30_p2	False	False	QA	dbic^QA		DTI_30_p2	('ORIGINAL', 'PRIMARY', 'DIFFUSION', 'NONE', 'ND', 'NORM')	qa	017Y	O	20170206
-5012	000001.dcm	11-DTI_30_p2_s4	-	-	-	122	122	2232	1	3.6	68.0	DTI_30_p2_s4	False	False	QA	dbic^QA		DTI_30_p2_s4	('ORIGINAL', 'PRIMARY', 'DIFFUSION', 'NONE', 'ND', 'NORM')	qa	017Y	O	20170206

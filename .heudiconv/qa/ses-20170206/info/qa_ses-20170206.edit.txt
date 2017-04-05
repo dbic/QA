@@ -1,5 +1,0 @@
-{('{bids_subject_session_dir}/dwi/{bids_subject_session_prefix}_acq-30p2_run-04_dwi', ('nii.gz', 'dicom'), None): ['10-DTI_30_p2'],
- ('{bids_subject_session_dir}/dwi/{bids_subject_session_prefix}_acq-30p2s4_run-05_dwi', ('nii.gz', 'dicom'), None): ['11-DTI_30_p2_s4'],
- ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-p2_run-01_bold', ('nii.gz', 'dicom'), None): ['5-BOLD_p2'],
- ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-p2noprescannormalize_run-03_bold', ('nii.gz', 'dicom'), None): ['8-BOLD_p2_noprescannormalize'],
- ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-p2s4_run-02_bold', ('nii.gz', 'dicom'), None): ['7-BOLD_p2_s4_3.5mm']}
