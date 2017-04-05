@@ -19,7 +19,6 @@
   "PhaseEncodingDirection": "j-", 
   "ProcedureStepDescription": "dbic_QA", 
   "ProtocolName": "BOLD_p2_s4_3.5mm", 
-  "RepetitionTime": 0.525, 
   "TaskName": "TODO: full task name for rest", 
   "dcmmeta_reorient_transform": [
     [0.0, -1.0, 0.0, 79.0], 
