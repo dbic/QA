@@ -1,0 +1,1 @@
+{('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-24mm64sl1000tr32te600dyn_run-05_bold', ('nii.gz', 'dicom'), None): ['5-func_run-05_task-rest_acq-2.4mm64sl1000tr32te600dyn']}
