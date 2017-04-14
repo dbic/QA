@@ -1,7 +1,9 @@
 {
-    "Acknowledgements": "We thank Terry Sacket and the rest of the DBIC (Dartmouth Brain Imaging Center) personnel for assistance in data collection, and Yaroslav Halchenko and Matteo Visconti for preparing BIDS dataset. TODO: more",
+    "Acknowledgements": "We thank James Dobson and Matteo Visconti for assistance in collection and preparing BIDS dataset.",
     "Authors": [
-        "Chandana K. Nambukara Kodiweera"
+        "Chandana Kodiweera",
+	"Terry Sacket",
+	"Yaroslav O. Halchenko"
     ],
     "BIDSVersion": "1.0.1",
     "HowToAcknowledge": "Please reference the dataset as DBIC QA Dataset in your papers",
