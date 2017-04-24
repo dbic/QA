@@ -1,4 +1,0 @@
-{('{bids_subject_session_dir}/dwi/{bids_subject_session_prefix}_acq-DTIX30Xp2Xs4_dwi', ('nii.gz', 'dicom'), None): ['9-dwi_acq-DTI-30-p2-s4'],
- ('{bids_subject_session_dir}/dwi/{bids_subject_session_prefix}_acq-DTIX30Xp2_dwi', ('nii.gz', 'dicom'), None): ['8-dwi_acq-DTI-30-p2'],
- ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-p2Xs4X35mm_bold', ('nii.gz', 'dicom'), None): ['7-func-bold_task-rest_acq-p2-s4-3.5mm'],
- ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-p2_bold', ('nii.gz', 'dicom'), None): ['5-func-bold_task-rest_acq-p2']}
