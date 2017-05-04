@@ -1,0 +1,3 @@
+{('{bids_subject_session_dir}/dwi/{bids_subject_session_prefix}_acq-DTIX30XnoXgrappa_dwi', ('nii.gz', 'dicom'), None): ['9-dwi_acq-DTI-30-no-grappa'],
+ ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-noXgrappa_bold', ('nii.gz', 'dicom'), None): ['7-func-bold_task-rest_acq-no-grappa'],
+ ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-noXgrappa_bold__dup-01', ('nii.gz', 'dicom'), None): ['5-func-bold_task-rest_acq-no-grappa']}
