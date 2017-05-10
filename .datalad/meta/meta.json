@@ -8,7 +8,11 @@
     "availableFrom": [
       {
         "@id": "6384a551-a41d-4290-b186-9258befede97",
-        "description": "bids@rolando:/inbox/BIDS/dbic/QA [origin]"
+        "description": "bids@rolando:/inbox/BIDS/dbic/QA"
+      },
+      {
+        "@id": "7d9ed214-3e5f-4cc8-ac88-f397145b2d4c",
+        "description": "yoh@falkor:/srv/datasets.datalad.org/www/dbic/QA"
       },
       {
         "@id": "ba8f2cea-f229-422c-82be-6580e5e07ed5",
@@ -38,6 +42,6 @@
     ],
     "description": "DBIC (Dartmouth Brain Imaging Dataset)\n--------------------------------------\n\nThis dataset contains sample data obtained on the Siemens Prisma 3T scanner\nfor quality assurance of its operation, and investigation of sample scanning\nparameters and auxilirary data (e.g. physiological recordings) acquisition.\n\nIt was automagically converted from DICOMs into BIDS using heudiconv with custom heuristic\nand feature improvements, see https://github.com/nipy/heudiconv/pull/32 for more\ninformation.  You can find original DICOMs under sourcedata/ in a hierarchy\nmimicing main hierarchy of the dataset.\n\nNew data samples are acquired pretty regularly (weekly) on an Agar gel phantom,\nso that data is not subject for any privacy consideration.  \nA few human scans were done on volunteer investigators, not subjects to facilitate\ncreation and testing of tools for processing physiological recordings.",
     "license": "PDDL (http://opendatacommons.org/licenses/pddl/)",
-    "name": "dbic-qa"
+    "name": "DBIC QA data (weekly QA scans etc.)"
   }
 ]
