@@ -8,7 +8,7 @@
     "BIDSVersion": "1.0.1",
     "HowToAcknowledge": "Please reference the dataset as DBIC QA Dataset in your papers",
     "License": "PDDL (http://opendatacommons.org/licenses/pddl/)",
-    "Name": "dbic-qa",
+    "Name": "DBIC QA data (weekly QA scans etc.)",
     "ReferencesAndLinks": [
         "http://dbic.dartmouth.edu"
     ]
