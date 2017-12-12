@@ -1,0 +1,6 @@
+filename	acq_time	operator	randstr
+func/sub-qa_ses-20171106_task-rest_acq-p2_bold.nii.gz	2017-11-06T11:15:59	n/a	7y6hYc0_
+func/sub-qa_ses-20171106_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2017-11-06T11:22:39	n/a	B;>yXW9D
+dwi/sub-qa_ses-20171106_acq-DTIX30Xp2_dwi.nii.gz	2017-11-06T11:29:19	n/a	g/R,`rj1
+dwi/sub-qa_ses-20171106_acq-DTIX30Xp2Xs4_dwi.nii.gz	2017-11-06T11:33:37	n/a	Tq9M/,'X
+anat/sub-qa_ses-20171106_acq-MPRAGE_T1w.nii.gz	2017-11-06T11:42:19	n/a	7jyuV3'N
