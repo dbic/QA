@@ -10,12 +10,5 @@
   "PhaseEncodingDirection": "j-",
   "ProcedureStepDescription": "dbic_QA",
   "RepetitionTime": 2,
-  "TaskName": "TODO: full task name for rest",
-  "dcmmeta_reorient_transform": [
-    [0.0, -1.0, 0.0, 79.0],
-    [1.0, 0.0, 0.0, 0.0],
-    [0.0, 0.0, 1.0, 0.0],
-    [0.0, 0.0, 0.0, 1.0]
-],
-  "dcmmeta_slice_dim": 2,
-  "dcmmeta_version": 0.6}
+  "TaskName": "TODO: full task name for rest"
+}
