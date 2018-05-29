@@ -1,5 +1,4 @@
-DBIC (Dartmouth Brain Imaging Dataset)
---------------------------------------
+# DBIC (Dartmouth Brain Imaging Dataset)
 
 This dataset contains sample data obtained on the Siemens Prisma 3T scanner
 for quality assurance of its operation, and investigation of sample scanning
