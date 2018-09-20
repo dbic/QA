@@ -1,6 +1,1 @@
-128	000001.dcm	1-anat-scout_ses-{date}	-	-	-	160	160	128	1	0.00315	1.37	anat-scout_ses-{date}	False	False	QA	dbic^QA		anat-scout_ses-{date}	('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')	qa	017Y	O	20170309
-133	000001.dcm	2-anat-scout_ses-{date}	-	-	-	162	162	5	1	0.00315	1.37	anat-scout_ses-{date}	False	True	QA	dbic^QA		anat-scout_ses-{date}_MPR_sag	('DERIVED', 'PRIMARY', 'MPR', 'ND', 'NORM')	qa	017Y	O	20170309
-136	000001.dcm	3-anat-scout_ses-{date}	-	-	-	162	162	3	1	0.00315	1.37	anat-scout_ses-{date}	False	True	QA	dbic^QA		anat-scout_ses-{date}_MPR_cor	('DERIVED', 'PRIMARY', 'MPR', 'ND', 'NORM')	qa	017Y	O	20170309
-139	000001.dcm	4-anat-scout_ses-{date}	-	-	-	162	162	3	1	0.00315	1.37	anat-scout_ses-{date}	False	True	QA	dbic^QA		anat-scout_ses-{date}_MPR_tra	('DERIVED', 'PRIMARY', 'MPR', 'ND', 'NORM')	qa	017Y	O	20170309
-339	000001.dcm	5-func-bold_task-rest_acq-p2	-	-	-	80	80	30	200	2.0	35.0	func-bold_task-rest_acq-p2	False	False	QA	dbic^QA		func-bold_task-rest_acq-p2	('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM', 'MOSAIC')	qa	017Y	O	20170309
-421	000001.dcm	7-func-bold_task-rest_acq-p2-s4-3.5mm	-	-	-	80	80	32	82	2.0	35.0	func-bold_task-rest_acq-p2-s4-3.5mm	False	False	QA	dbic^QA		func-bold_task-rest_acq-p2-s4-3.5mm	('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM', 'MOSAIC')	qa	017Y	O	20170309
+../../../../.git/annex/objects/j3/00/SHA256E-s886--c161f0f85c11d1d618a977bd6254398895d9ac5119caf969e653fa53ce14139f.tsv/SHA256E-s886--c161f0f85c11d1d618a977bd6254398895d9ac5119caf969e653fa53ce14139f.tsv
