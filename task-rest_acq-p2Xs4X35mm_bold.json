@@ -1,7 +1,12 @@
 {
+  "AcquisitionNumber": 1,
+  "BandwidthPerPixelPhaseEncode": 44.643,
+  "BodyPartExamined": "BRAIN",
   "CogAtlasID": "TODO",
   "ConversionSoftware": "dcm2niix",
+  "DeviceSerialNumber": "66112",
   "EchoTime": 0.035,
+  "EchoTrainLength": 39,
   "EffectiveEchoSpacing": 0.000279999,
   "FlipAngle": 90,
   "ImageType": [
@@ -12,10 +17,16 @@
     "NORM",
     "MOSAIC"
 ],
+  "InstitutionAddress": "Maynard_3_Hanover_NH_US_03755",
+  "InstitutionName": "Dartmouth_College_-_PBS",
   "MagneticFieldStrength": 3,
   "Manufacturer": "Siemens",
   "ManufacturersModelName": "Prisma",
   "PhaseEncodingDirection": "j-",
   "ProcedureStepDescription": "dbic_QA",
+  "ScanningSequence": "EP",
+  "SequenceName": "_epfid2d1_80",
+  "SequenceVariant": "SK",
+  "SoftwareVersions": "syngo_MR_E11",
   "TaskName": "TODO: full task name for rest"
 }
