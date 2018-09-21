@@ -7,7 +7,7 @@
   "BodyPartExamined": "BRAIN",
   "ConsistencyInfo": "N4_VE11C_LATEST_20160120",
   "ConversionSoftware": "dcm2niix",
-  "ConversionSoftwareVersion": "v1.0.20170923 (OpenJPEG build) GCC6.3.0",
+  "ConversionSoftwareVersion": "v1.0.20171215 (OpenJPEG build) GCC6.3.0",
   "DerivedVendorReportedEchoSpacing": 0.000559998,
   "DeviceSerialNumber": "66112",
   "DwellTime": 2.7e-06,
@@ -15,6 +15,14 @@
   "EchoTrainLength": 39,
   "EffectiveEchoSpacing": 0.000279999,
   "FlipAngle": 90,
+  "ImageOrientationPatientDICOM": [
+    0.984883,
+    0.172752,
+    0.0127562,
+    -0.168526,
+    0.938546,
+    0.301214
+  ],
   "ImageType": [
     "ORIGINAL",
     "PRIMARY",
@@ -23,8 +31,11 @@
     "NORM",
     "MOSAIC"
   ],
+  "InPlanePhaseEncodingDirectionDICOM": "COL",
   "InstitutionAddress": "Maynard_3_Hanover_NH_US_03755",
   "InstitutionName": "Dartmouth_College_-_PBS",
+  "InstitutionalDepartmentName": "Department",
+  "MRAcquisitionType": "2D",
   "MagneticFieldStrength": 3,
   "Manufacturer": "Siemens",
   "ManufacturersModelName": "Prisma",
@@ -32,10 +43,12 @@
   "MultibandAccelerationFactor": 4,
   "ParallelReductionFactorInPlane": 2,
   "PartialFourier": 1,
+  "PatientPosition": "HFS",
   "PercentPhaseFOV": 100,
   "PhaseEncodingDirection": "j-",
   "PhaseEncodingSteps": 79,
   "PhaseResolution": 1,
+  "PixelBandwidth": 2315,
   "ProcedureStepDescription": "dbic_QA",
   "ProtocolName": "func-bold_task-rest_acq-p2-s4-3.5mm",
   "PulseSequenceDetails": "%SiemensSeq%_ep2d_bold",
@@ -43,11 +56,24 @@
   "ReceiveCoilName": "Head_32",
   "ReconMatrixPE": 80,
   "RepetitionTime": 2,
+  "SAR": 0.0209535,
   "ScanOptions": "FS",
   "ScanningSequence": "EP",
   "SequenceName": "_epfid2d1_80",
   "SequenceVariant": "SK",
   "SeriesDescription": "func-bold_task-rest_acq-p2-s4-3.5mm",
+  "SeriesNumber": 7,
+  "ShimSetting": [
+    4144,
+    -7688,
+    -7522,
+    306,
+    -31,
+    -150,
+    -40,
+    67
+  ],
+  "SliceThickness": 3.5,
   "SliceTiming": [
     1.485,
     0,
@@ -83,6 +109,8 @@
     0.495
   ],
   "SoftwareVersions": "syngo_MR_E11",
+  "SpacingBetweenSlices": 3.99,
   "StationName": "AWP66112",
-  "TotalReadoutTime": 0.0221199
+  "TotalReadoutTime": 0.0221199,
+  "TxRefAmp": 232.269
 }
