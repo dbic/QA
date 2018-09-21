@@ -1,4 +1,1 @@
-{('{bids_subject_session_dir}/dwi/{bids_subject_session_prefix}_acq-DTIX30Xp2Xs4_dwi', ('nii.gz', 'dicom'), None): ['9-DTI_30_p2_s4'],
- ('{bids_subject_session_dir}/dwi/{bids_subject_session_prefix}_acq-DTIX30Xp2_dwi', ('nii.gz', 'dicom'), None): ['8-DTI_30_p2'],
- ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-p2Xs4X35mm_bold', ('nii.gz', 'dicom'), None): ['7-BOLD_p2_s4_3.5mm'],
- ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-p2_bold', ('nii.gz', 'dicom'), None): ['5-BOLD_p2']}
+../../../../.git/annex/objects/zV/5x/SHA256E-s544--2e42a74be6302abf3c81563320a71198e07de2f53f82fef120a04830358bd1fd.auto.txt/SHA256E-s544--2e42a74be6302abf3c81563320a71198e07de2f53f82fef120a04830358bd1fd.auto.txt

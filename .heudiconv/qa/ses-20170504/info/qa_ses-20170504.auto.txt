@@ -1,3 +1,1 @@
-{('{bids_subject_session_dir}/dwi/{bids_subject_session_prefix}_acq-DTIX30XnoXgrappa_dwi', ('nii.gz', 'dicom'), None): ['9-dwi_acq-DTI-30-no-grappa'],
- ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-noXgrappa_bold', ('nii.gz', 'dicom'), None): ['7-func-bold_task-rest_acq-no-grappa'],
- ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-noXgrappa_bold__dup-01', ('nii.gz', 'dicom'), None): ['5-func-bold_task-rest_acq-no-grappa']}
+../../../../.git/annex/objects/7f/Q7/SHA256E-s488--705c2cfb002d09acfbd20e52309c676118648d934d73f23517ea108da19a9ea9.auto.txt/SHA256E-s488--705c2cfb002d09acfbd20e52309c676118648d934d73f23517ea108da19a9ea9.auto.txt

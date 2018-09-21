@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+# Ad hoc script which was used to redo the conversion.
+# --ses needed to be provided since older acquisitions didn't have any
+# session annotation in them
+#
+set -eu
+
+sub=qa; 
+
+ses=20161219
+/bin/ls -d sub-$sub/ses-* | \
+grep -v -e 'ses-2016\(1219\|1212\|1205\|1128\)' | while read sesdir; do
+  ses=`echo $sesdir | sed -e 's,.*-,,g'`
+  git rm -r .heudiconv/$sub/ses-$ses/ sub-$sub/ses-$ses
+  ~/venv-deploy/bin/heudiconv  -f reproin -c dcm2niix -o /inbox/BIDS --bids -s $sub --ses $ses --files sourcedata/sub-$sub/ses-$ses
+  git annex add --include-dotfiles .heudiconv/qa/ses-$ses/ sub-qa/ses-$ses/
+  git commit -m "Reconverted $sub for session $ses" -a
+done
+

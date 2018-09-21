@@ -1,5 +1,1 @@
-{('{bids_subject_session_dir}/dwi/{bids_subject_session_prefix}_acq-DTIX30Xp2Xs4_dwi', ('nii.gz', 'dicom'), None): ['11-DTI_30_p2_s4'],
- ('{bids_subject_session_dir}/dwi/{bids_subject_session_prefix}_acq-DTIX30Xp2_dwi', ('nii.gz', 'dicom'), None): ['10-DTI_30_p2'],
- ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-p2Xs4X35mm_bold', ('nii.gz', 'dicom'), None): ['7-BOLD_p2_s4_3.5mm'],
- ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-p2_bold', ('nii.gz', 'dicom'), None): ['5-BOLD_p2'],
- ('{bids_subject_session_dir}/func/{bids_subject_session_prefix}_task-rest_acq-p2noprescannormalize_bold', ('nii.gz', 'dicom'), None): ['8-BOLD_p2_noprescannormalize']}
+../../../../.git/annex/objects/XP/Qj/SHA256E-s715--a34b544d5a58c38ae4959207f5ef09602f2b82056ac939fac0b3e17ff7dd1f1e.auto.txt/SHA256E-s715--a34b544d5a58c38ae4959207f5ef09602f2b82056ac939fac0b3e17ff7dd1f1e.auto.txt
