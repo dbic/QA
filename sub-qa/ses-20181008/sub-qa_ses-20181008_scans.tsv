@@ -1,0 +1,6 @@
+filename	acq_time	operator	randstr
+func/sub-qa_ses-20181008_task-rest_acq-p2_bold.nii.gz	2018-10-08T09:22:00	n/a	<+k:#4ab
+func/sub-qa_ses-20181008_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2018-10-08T09:28:41	n/a	s*;1L07p
+dwi/sub-qa_ses-20181008_acq-DTIX30Xp2_dwi.nii.gz	2018-10-08T09:39:00	n/a	S`V4s;Q6
+dwi/sub-qa_ses-20181008_acq-DTIX30Xp2Xs4_dwi.nii.gz	2018-10-08T09:43:20	n/a	tZ|:!K)+
+anat/sub-qa_ses-20181008_acq-MPRAGE_T1w.nii.gz	2018-10-08T09:50:30	n/a	gA*MchDq
