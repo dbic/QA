@@ -4,3 +4,6 @@
 *.tsv annex.largefiles=nothing
 *.nii.gz annex.largefiles=(largerthan=0kb)
 *.tgz annex.largefiles=(largerthan=0kb)
+*.nii.gz annex.largefiles=anything
+*.tgz annex.largefiles=anything
+*_scans.tsv annex.largefiles=anything
