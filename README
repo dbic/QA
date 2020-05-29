@@ -1,5 +1,7 @@
 # DBIC (Dartmouth Brain Imaging Dataset)
 
+[![DOI](https://zenodo.org/badge/267041691.svg)](https://zenodo.org/badge/latestdoi/267041691)
+
 This dataset contains sample data obtained on the Siemens Prisma 3T scanner
 for quality assurance of its operation, and investigation of sample scanning
 parameters and auxilirary data (e.g. physiological recordings) acquisition.
