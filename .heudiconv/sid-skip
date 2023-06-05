@@ -1,1 +1,33 @@
-../.git/annex/objects/m4/5P/SHA256E-s584--03ed5ccc7ac61cba7bd9ade686cdca1e9a9c25a412f3e95f2f7f594b5a19ed73/SHA256E-s584--03ed5ccc7ac61cba7bd9ade686cdca1e9a9c25a412f3e95f2f7f594b5a19ed73
+# "subject" was renamed later, so just skip this one for now
+/inbox/DICOM/2018/05/08/qa-amit
+# some earlier sessions which were converted using heudiconv which did not
+# record original path so we cannot deduce that they were converted into a specific date
+# based session but they seems were, so they are ok. But since we cannot deduce - we need
+# to explicitly skip
+/inbox/DICOM/2017/01/03/qa
+/inbox/DICOM/2017/01/09/qa
+/inbox/DICOM/2017/01/17/qa
+/inbox/DICOM/2017/01/23/qa
+/inbox/DICOM/2017/01/30/qa
+/inbox/DICOM/2017/02/06/qa
+/inbox/DICOM/2017/02/13/qa
+/inbox/DICOM/2017/02/27/qa
+# some non-qa accessions which we would skip for now
+/inbox/DICOM/2020/03/12/uncombined
+/inbox/DICOM/2020/12/07/ZOOMtest
+/inbox/DICOM/2021/02/25/zoomittest
+/inbox/DICOM/2021/08/06/tdcs-test
+/inbox/DICOM/2021/11/19/coiltest
+/inbox/DICOM/2022/04/01/flip_angle_test
+/inbox/DICOM/2022/04/01/flip_ang_test64
+/inbox/DICOM/2022/04/04/A-good
+/inbox/DICOM/2022/06/01/VARTRQA
+/inbox/DICOM/2022/07/08/HEAD
+/inbox/DICOM/2022/10/26/unknown
+/inbox/DICOM/2022/11/23/andytest
+/inbox/DICOM/2022/12/07/ACTest
+/inbox/DICOM/2023/01/05/andytest
+/inbox/DICOM/2023/01/05/andytest2
+/inbox/DICOM/2023/01/12/ACC
+/inbox/DICOM/2023/01/12/ANDYTEST
+
