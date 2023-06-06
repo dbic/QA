@@ -1,0 +1,4 @@
+[submodule "code/reproin"]
+	path = code/reproin
+	url = https://github.com/ReproNim/reproin
+	datalad-url = https://github.com/ReproNim/reproin
