@@ -1,2 +1,4 @@
 * annex.largefiles=anything
+# keep top one under git -- the others, under annex
+/heuristic.py annex.largefiles=nothing
             
