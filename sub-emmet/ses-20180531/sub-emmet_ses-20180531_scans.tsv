@@ -1,10 +1,1 @@
-filename	acq_time	operator	randstr
-func/sub-emmet_ses-20180531_task-rest_acq-p2_bold.nii.gz	2018-05-31T09:30:48	n/a	`|,4%BD!
-dwi/sub-emmet_ses-20180531_acq-DTIX30Xp2X2mm_dwi.nii.gz	2018-05-31T09:38:09	n/a	n\BK7%_i
-anat/sub-emmet_ses-20180531_acq-MPRAGE_T1w.nii.gz	2018-05-31T09:47:17	n/a	\4l6uiht
-func/sub-emmet_ses-20180531_task-rest_acq-3mm_bold.nii.gz	2018-05-31T09:47:57	n/a	])oxj%@S
-fmap/sub-emmet_ses-20180531_acq-topupXb0X3mm_dir-AP_epi.nii.gz	2018-05-31T09:49:23	n/a	`(xD,3O|
-fmap/sub-emmet_ses-20180531_acq-topupXb0X3mm_dir-PA_epi.nii.gz	2018-05-31T09:49:43	n/a	"]j40Xv""U"
-fmap/sub-emmet_ses-20180531_acq-3mm_dir-AP_magnitude1.nii.gz	2018-05-31T09:51:12	n/a	":S>\""Zkg"
-fmap/sub-emmet_ses-20180531_acq-3mm_dir-AP_magnitude2.nii.gz	2018-05-31T09:51:12	n/a	y;{%OEn!
-fmap/sub-emmet_ses-20180531_acq-3mm_dir-AP_phasediff.nii.gz	2018-05-31T09:51:13	n/a	an?$@#:j
+../../.git/annex/objects/77/Zw/SHA256E-s934--acda0be555c018c8b294ac3af6c176453313f6a00ba6755161f10c1e08d63fd1.tsv/SHA256E-s934--acda0be555c018c8b294ac3af6c176453313f6a00ba6755161f10c1e08d63fd1.tsv
