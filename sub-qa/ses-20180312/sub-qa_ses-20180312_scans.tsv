@@ -1,6 +1,1 @@
-filename	acq_time	operator	randstr
-func/sub-qa_ses-20180312_task-rest_acq-p2_bold.nii.gz	2018-03-12T09:21:31	n/a	SNIO\q~m
-func/sub-qa_ses-20180312_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2018-03-12T09:28:11	n/a	zPTH3,>&
-dwi/sub-qa_ses-20180312_acq-DTIX30Xp2_dwi.nii.gz	2018-03-12T09:35:31	n/a	Ayu,T}dD
-dwi/sub-qa_ses-20180312_acq-DTIX30Xp2Xs4_dwi.nii.gz	2018-03-12T09:39:48	n/a	9#H.yEX\
-anat/sub-qa_ses-20180312_acq-MPRAGE_T1w.nii.gz	2018-03-12T09:46:57	n/a	oUP5':4R
+../../.git/annex/objects/kF/xK/SHA256E-s505--bc7e076a78bfd59c0a9c4712b4a9bdeac3734f841892048175f6a8a83a7f7d2b.tsv/SHA256E-s505--bc7e076a78bfd59c0a9c4712b4a9bdeac3734f841892048175f6a8a83a7f7d2b.tsv

@@ -1,0 +1,9 @@
+[submodule "code/reproin"]
+	path = code/reproin
+	url = https://github.com/ReproNim/reproin
+	datalad-url = https://github.com/ReproNim/reproin
+[submodule "code/containers"]
+	path = code/containers
+	url = https://datasets.datalad.org/repronim/containers/.git
+	datalad-id = b02e63c2-62c1-11e9-82b0-52540040489c
+	datalad-url = ///repronim/containers
