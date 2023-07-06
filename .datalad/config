@@ -2,7 +2,7 @@
 	id = c794e6e8-194a-11e7-99f0-ac162d79559c
 [datalad "containers.repronim-reproin"]
 	image = code/containers/images/repronim/repronim-reproin--0.13.1.sing
-	cmdexec = {img_dspath}/code/containers/scripts/singularity_cmd run {img} {cmd}
+	cmdexec = {img_dspath}/code/containers/scripts/singularity_cmd run -B /inbox/DICOM/ -B /inbox/BIDS {img} {cmd}
 [datalad "containers.repronim-reproin-dev"]
 	image = code/containers/images/repronim/repronim-reproin--0.13.1.sing
 	cmdexec = {img_dspath}/code/containers/scripts/singularity_cmd run -B {img_dspath}/code/reproin/bin/reproin:/usr/local/bin/reproin {img} {cmd}
