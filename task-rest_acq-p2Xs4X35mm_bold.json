@@ -1,20 +1,16 @@
 {
   "AcquisitionMatrixPE": 80,
   "AcquisitionNumber": 1,
-  "BandwidthPerPixelPhaseEncode": 44.643,
   "BaseResolution": 80,
   "BodyPartExamined": "BRAIN",
   "CogAtlasID": "TODO",
   "CoilCombinationMethod": "Sum of Squares",
-  "ConsistencyInfo": "N4_VE11C_LATEST_20160120",
   "ConversionSoftware": "dcm2niix",
   "ConversionSoftwareVersion": "v1.0.20220720",
-  "DerivedVendorReportedEchoSpacing": 0.000559998,
   "DeviceSerialNumber": "66112",
   "DwellTime": 2.7e-06,
   "EchoTime": 0.035,
   "EchoTrainLength": 39,
-  "EffectiveEchoSpacing": 0.000279999,
   "FlipAngle": 90,
   "HeudiconvVersion": "0.13.1",
   "ImageType": [
@@ -58,7 +54,6 @@
   "SpacingBetweenSlices": 3.99,
   "StationName": "AWP66112",
   "TaskName": "TODO: full task name for rest",
-  "TotalReadoutTime": 0.0221199,
   "dcmmeta_reorient_transform": [
     [0.0, -1.0, 0.0, 79.0],
     [1.0, 0.0, 0.0, 0.0],

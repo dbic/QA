@@ -6,7 +6,6 @@
   "BodyPartExamined": "BRAIN",
   "CogAtlasID": "TODO",
   "CoilCombinationMethod": "Sum of Squares",
-  "ConsistencyInfo": "N4_VE11C_LATEST_20160120",
   "ConversionSoftware": "dcm2niix",
   "ConversionSoftwareVersion": "v1.0.20220720",
   "DerivedVendorReportedEchoSpacing": 0.000519999,
