@@ -1,0 +1,16 @@
+authors:
+- family-names: Halchenko
+  given-names: Yaroslav O.
+  orcid: 0000-0003-3456-2493
+- family-names: Kodiweera
+  given-names: Chandana
+  orcid: 0000-0002-6576-8534
+- family-names: Sacket
+  given-names: Terry 
+cff-version: 1.2.0
+doi: 10.5281/zenodo.3865432
+repository: http://datasets.datalad.org/dbic/QA/.git
+message: If you use this software, please cite it using these metadata.
+title: Dartmouth Brain Imaging Center (DBIC) QA data (weekly QA scans etc.)
+license: PDDL
+license-url: https://opendatacommons.org/licenses/pddl/
