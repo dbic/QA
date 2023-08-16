@@ -12,5 +12,4 @@ doi: 10.5281/zenodo.3865432
 repository: http://datasets.datalad.org/dbic/QA/.git
 message: If you use this software, please cite it using these metadata.
 title: Dartmouth Brain Imaging Center (DBIC) QA data (weekly QA scans etc.)
-license: PDDL
-license-url: https://opendatacommons.org/licenses/pddl/
+license: PDDL-1.0
