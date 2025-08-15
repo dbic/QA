@@ -52,7 +52,6 @@
   "ReceiveCoilName": "Head_32",
   "ReconMatrixPE": 80,
   "RefLinesPE": 24,
-  "RepetitionTime": 2,
   "ScanOptions": "FS",
   "ScanningSequence": "EP",
   "SequenceName": "*epfid2d1_80",
@@ -69,6 +68,5 @@
     [0.0, 0.0, 1.0, 0.0],
     [0.0, 0.0, 0.0, 1.0]
 ],
-  "dcmmeta_shape": [80, 80, 30, 150],
   "dcmmeta_slice_dim": 2,
   "dcmmeta_version": 0.6}
