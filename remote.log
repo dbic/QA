@@ -1,1 +1,2 @@
 7d9ed214-3e5f-4cc8-ac88-f397145b2d4c autoenable=true location=http://datasets.datalad.org/dbic/QA/.git name=datasets.datalad.org type=git timestamp=1590510405.03688642s
+f499a717-80a9-42b4-98a6-857e823aa057 encryption=none name=dbic-mrinbox-rsync rsyncurl=bids@dbic-mrinbox:/inbox/BIDS/dbic/QA type=rsync timestamp=1765136737s
