@@ -7,8 +7,8 @@
 	url = https://datasets.datalad.org/repronim/containers/.git
 	datalad-id = b02e63c2-62c1-11e9-82b0-52540040489c
 	datalad-url = ///repronim/containers
-[submodule "sourcedata/reprostim-reproin"]
-	path = sourcedata/reprostim-reproin
+[submodule "sourcedata/reprostim-reproiner"]
+	path = sourcedata/reprostim-reproiner
 	url = ../../../reprostim-reproiner
 	datalad-id = f1dfa696-ddbe-4b36-8ac5-b2b0cf9c41da
 	datalad-url = ../reprostim-reproiner
