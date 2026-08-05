@@ -10,5 +10,5 @@
 	image = code/containers/images/repronim/repronim-reproin--0.13.1.sing
 	cmdexec = {img_dspath}/code/containers/scripts/singularity_cmd run -B {img_dspath}/code/reproin/bin/reproin:/usr/local/bin/reproin -B /inbox/DICOM/ -B /inbox/BIDS {img} {cmd}
 [datalad "containers.repronim-reprostim"]
-	image = code/containers/images/repronim/repronim-reprostim--0.7.32.sif
+	image = code/containers/images/repronim/repronim-reprostim--0.7.34.sif
 	cmdexec = {img_dspath}/code/containers/scripts/singularity_cmd run {img} {cmd}

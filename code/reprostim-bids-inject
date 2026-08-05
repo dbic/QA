@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+#
+# To be ran periodically, e.g. daily or manually
+#
+name=$(basename $0)
+
+cd "$(dirname $0)"/..
+pwd
+
+if [ -n "$1" ]; then
+	files=("$@")
+else
+	files=("sub-qa64/ses-20250811")
+	if [ ! -e "${files[0]}" ]; then
+		echo "$name: default directory does not exist, nothing to do: ${files[0]}" >&2
+		exit 0
+	fi
+fi
+
+set -eu
+
+lock_file="$HOME/.run/${name}.lock"
+
+# Ensure the lock directory exists
+mkdir -p "$HOME/.run"
+
+{
+    mkdir -p logs/bids-inject
+    flock -n 200 || { echo "$name job is already running for $0." 2>&1 ; exit 1; }
+    REPRONIM_USE_DUCT=1 DUCT_OUTPUT_PREFIX='logs/bids-inject/{datetime_filesafe}-{pid}_' \
+	    datalad containers-run -m "Run bids-inject" \
+	    --input sourcedata/reprostim-reproiner \
+	    --input "sub-*/ses-*/*.tsv" --input "sub-*/ses-*/*/*.nii.gz" \
+	    --output "sub-*/ses-*/*.tsv" --output "sub-*/ses-*/*/*_audiovideo*.*" \
+	    bids-inject -f "sourcedata/reprostim-reproiner/videos.tsv" \
+	    -r -k no -l nearby -b 3 -a 3 -q none  \
+	    --verbose "${files[@]}"
+
+    # TODO: use -q embed-existing once we implement it for better timing
+} 200>"$lock_file"
