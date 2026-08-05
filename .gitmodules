@@ -12,3 +12,7 @@
 	url = ../../../reprostim-reproiner
 	datalad-id = f1dfa696-ddbe-4b36-8ac5-b2b0cf9c41da
 	datalad-url = ../reprostim-reproiner
+[submodule "logs"]
+	path = logs
+	url = ./logs
+	datalad-id = b8ce93ba-0cb3-49b3-8c8f-9fd5f5f94360
