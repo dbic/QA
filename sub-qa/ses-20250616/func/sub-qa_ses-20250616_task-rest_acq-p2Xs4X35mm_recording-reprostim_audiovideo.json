@@ -1,0 +1,19 @@
+{
+  "TaskName": "rest",
+  "Device": "USB Capture DVI+",
+  "DeviceSerialNumber": "B208220302195",
+  "RecordingDuration": 406.0,
+  "VideoCodec": "h264",
+  "VideoCodecRFC6381": "avc1.7A0028",
+  "VideoFrameRate": 60.0,
+  "ImageWidth": 1280,
+  "ImageHeight": 800,
+  "ImageBitDepth": 8,
+  "ImagePixelFormat": "yuv422p",
+  "VideoFrameCount": 451596,
+  "AudioCodec": "aac",
+  "AudioCodecRFC6381": "mp4a.40.2",
+  "AudioSampleRate": 48000.0,
+  "AudioBitDepth": 16,
+  "AudioChannelCount": 2
+}
