@@ -30,9 +30,11 @@ mkdir -p "$HOME/.run"
     REPRONIM_USE_DUCT=1 DUCT_OUTPUT_PREFIX='logs/bids-inject/{datetime_filesafe}-{pid}_' \
 	    datalad containers-run -m "Run bids-inject" \
 	    -n repronim-reprostim \
-	    --input sourcedata/reprostim-reproiner \
-	    --input "sub-*/ses-*/*.tsv" --input "sub-*/ses-*/*/*.nii.gz" \
-	    --output "sub-*/ses-*/*.tsv" --output "sub-*/ses-*/*/*_audiovideo*.*" \
+            --input sourcedata/reprostim-reproiner --input "sub-*/ses-*/*.tsv" \
+            --input "sub-*/ses-*/*/*.nii.gz" --input "sub-*/ses-*/*/*.json" \
+            --output "logs/bids-inject/*.*" \
+            --output "sub-*/ses-*/*.tsv" --output "sub-*/ses-*/*/*_audiovideo*.*" \
+            --output "sub-*/ses-*/*/*_audio*.*" --output "sub-*/ses-*/*/*_video*.*" \
 	    bids-inject -f "sourcedata/reprostim-reproiner/videos.tsv" \
 	    -r -k no -l nearby -b 3 -a 3 -q none  \
 	    --verbose "${files[@]}"
