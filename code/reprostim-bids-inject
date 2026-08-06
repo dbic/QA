@@ -28,7 +28,7 @@ mkdir -p "$HOME/.run"
     mkdir -p logs/bids-inject
     flock -n 200 || { echo "$name job is already running for $0." 2>&1 ; exit 1; }
     REPRONIM_USE_DUCT=1 DUCT_OUTPUT_PREFIX='logs/bids-inject/{datetime_filesafe}-{pid}_' \
-	    datalad containers-run -m "Run bids-inject" \
+	    datalad containers-run -m "Run code/reprostim-bids-inject: ${files[@]}" \
 	    -n repronim-reprostim \
             --input sourcedata/reprostim-reproiner --input "sub-*/ses-*/*.tsv" \
             --input "sub-*/ses-*/*/*.nii.gz" --input "sub-*/ses-*/*/*.json" \
