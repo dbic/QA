@@ -6,4 +6,14 @@ cd "$(dirname $0)"/..
 
 set -eu
 
-find . \( -type f -o -type l \) -name '*_scans.tsv' | xargs cat
+#find . \( -type f -o -type l \) -name '*_scans.tsv' | xargs cat
+
+# dump aggregated header
+printf 'filename\tacq_time\toperator\trandstr\treprostim_path\treprostim_offset\treprostim_buffer_before\treprostim_buffer_after\n'
+
+find . \( -type f -o -type l \) -name '*_scans.tsv' -print0 |
+while IFS= read -r -d '' f; do
+	if head -n1 "$f" | grep -q 'reprostim_'; then
+		tail -n +2 "$f"
+	fi
+done
