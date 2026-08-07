@@ -9,11 +9,11 @@ set -eu
 #find . \( -type f -o -type l \) -name '*_scans.tsv' | xargs cat
 
 # dump aggregated header
-printf 'scans_tsv\tfilename\tacq_time\toperator\trandstr\treprostim_path\treprostim_offset\treprostim_buffer_before\treprostim_buffer_after\n'
+printf 'no\tscans_tsv\tfilename\tacq_time\toperator\trandstr\treprostim_path\treprostim_offset\treprostim_buffer_before\treprostim_buffer_after\n'
 
 find . \( -type f -o -type l \) -name '*_scans.tsv' -print0 |
 while IFS= read -r -d '' f; do
 	if head -n1 "$f" | grep -q 'reprostim_'; then
 		tail -n +2 "$f" | awk -v pre="$f" '{print pre "\t" $0}'
 	fi
-done
+done | awk '{print NR "\t" $0}'
