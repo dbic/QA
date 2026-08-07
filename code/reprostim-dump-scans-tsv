@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#
+# Dump and merge all _scans.tsv with reprostim_* metadata as single .tsv
+#
+cd "$(dirname $0)"/..
+
+set -eu
+
+find . \( -type f -o -type l \) -name '*_scans.tsv' | xargs cat
