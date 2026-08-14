@@ -19,8 +19,8 @@ fi
 
 session_dir="sub-*/ses-*"
 # When targeting a single session directory (the default, or one explicit
-# arg), use it directly instead of the glob pattern
-if [ "${#files[@]}" -eq 1 ] && [ -d "${files[0]}" ]; then
+# arg) or a glob, use it directly instead of the glob pattern
+if [ "${#files[@]}" -eq 1 ] ; then
 	session_dir="${files[0]}"
 fi
 
