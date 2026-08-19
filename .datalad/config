@@ -13,5 +13,5 @@
 	image = code/containers/images/repronim/repronim-reprostim--0.7.34.sif
 	cmdexec = {img_dspath}/code/containers/scripts/singularity_cmd run {img} {cmd}
 [datalad "containers.bids-validator"]
-	image = code/containers/images/bids/bids-validator--2.5.6.sif
+	image = code/containers/images/bids/bids-validator--3.0.1.sif
 	cmdexec = {img_dspath}/code/containers/scripts/singularity_cmd run {img} {cmd}
