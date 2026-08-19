@@ -25,6 +25,9 @@ mkdir -p "$HOME/.run"
 		-n bids-validator \
 		--input "${dataset_dir}" \
 		--output "logs/bids-validator/*.*" \
-		-- --help
+		-- "${dataset_dir}" \
+			--schema https://bids-specification--2367.org.readthedocs.build/en/2367/schema.json \
+			--ignoreNiftiHeaders \
+			-o "logs/bids-validator/$(date +%Y-%m-%dT%H-%M-%S)-$$_bids-validator.log"
 
 } 200>"$lock_file"
