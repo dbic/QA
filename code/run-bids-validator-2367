@@ -19,15 +19,19 @@ mkdir -p "$HOME/.run"
 
 {
 	mkdir -p logs/bids-validator
+	mkdir -p derivatives
 	flock -n 200 || { echo "$name job is already running for $0." 2>&1 ; exit 1; }
 	REPRONIM_USE_DUCT=1 DUCT_OUTPUT_PREFIX='logs/bids-validator/{datetime_filesafe}-{pid}_' \
 	datalad containers-run -m "Run code/run-bids-validator-2367 on ${dataset_dir}" \
 		-n bids-validator \
 		--input "${dataset_dir}" \
 		--output "logs/bids-validator/*.*" \
+		--output "derivatives/bids-validator.json" \
 		-- "${dataset_dir}" \
 			--schema https://bids-specification--2367.org.readthedocs.build/en/2367/schema.json \
 			--ignoreNiftiHeaders \
-			-o "logs/bids-validator/$(date +%Y-%m-%dT%H-%M-%S)-$$_bids-validator.log"
+			--verbose \
+			--format json \
+			-o "derivatives/bids-validator.json"
 
 } 200>"$lock_file"
