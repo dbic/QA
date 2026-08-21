@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #
 # Execute BIDS validator against dbic-QA using schema:
-#   https://bids-specification--2367.org.readthedocs.build/en/2367/schema.json
+#   https://bids-specification--2022.org.readthedocs.build/en/2022/schema.json
 #
-# Reference PR: https://github.com/bids-standard/bids-specification/pull/2367
+# Reference PR: https://github.com/bids-standard/bids-specification/pull/2022
 #
 set -eu
 
@@ -22,13 +22,13 @@ mkdir -p "$HOME/.run"
 	mkdir -p derivatives
 	flock -n 200 || { echo "$name job is already running for $0." 2>&1 ; exit 1; }
 	REPRONIM_USE_DUCT=1 DUCT_OUTPUT_PREFIX='logs/bids-validator/{datetime_filesafe}-{pid}_' \
-	datalad containers-run -m "Run code/run-bids-validator-2367 on ${dataset_dir}" \
+	datalad containers-run -m "Run code/run-bids-validator-2022 on ${dataset_dir}" \
 		-n bids-validator \
 		--input "${dataset_dir}" \
 		--output "logs/bids-validator/*.*" \
 		--output "derivatives/bids-validator.json" \
 		-- "${dataset_dir}" \
-			--schema https://bids-specification--2367.org.readthedocs.build/en/2367/schema.json \
+			--schema https://bids-specification--2022.org.readthedocs.build/en/2022/schema.json \
 			--ignoreNiftiHeaders \
 			--verbose \
 			--format json \
