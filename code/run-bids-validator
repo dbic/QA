@@ -27,7 +27,6 @@ mkdir -p "$HOME/.run"
 	datalad --on-failure ignore \
 		containers-run -m "Run code/run-bids-validator-2022 on ${dataset_dir}" \
 		-n bids-validator \
-		--on-failure ignore \
 		--input "${dataset_dir}" \
 		--output "logs/bids-validator/*.*" \
 		--output "derivatives/bids-validator.json" \
