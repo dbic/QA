@@ -5,10 +5,8 @@
 #
 set -eu
 
-name=$(basename $0)
-cd "$(dirname $0)"/..
-
-dataset_dir="$(pwd)"
+name=$(basename "$0")
+cd "$(dirname "$0")"/..
 
 lock_file="$HOME/.run/${name}.lock"
 
@@ -49,12 +47,13 @@ mkdir -p "$HOME/.run"
 		base_name="$(basename "$rel_file")"
 		mkdir -p "derivatives/qr/${rel_dir}" "logs/qr/${rel_dir}"
 		REPRONIM_USE_DUCT=1 DUCT_OUTPUT_PREFIX="logs/qr/${rel_dir}/{datetime_filesafe}-{pid}_" \
-		echo "singularity run code/containers/images/repronim/repronim-reprostim--0.7.34.sif --log-level DEBUG qr-parse " \
-		"--scale 0.5 " \
-		"--qr-decoder-workers 3 " \
-		"$rel_file " \
-		">derivatives/qr/${rel_dir}/${base_name}.qrinfo.jsonl " \
-		"2>logs/qr/${rel_dir}/${base_name}.qrinfo.log"
+		singularity run code/containers/images/repronim/repronim-reprostim--0.7.34.sif \
+			--log-level DEBUG qr-parse \
+				--scale 0.5 \
+				--qr-decoder-workers 3 \
+				"$rel_file" \
+				>"derivatives/qr/${rel_dir}/${base_name}.qrinfo.jsonl" \
+				2>"logs/qr/${rel_dir}/${base_name}.qrinfo.log"
 	done
 
 } 200>"$lock_file"
