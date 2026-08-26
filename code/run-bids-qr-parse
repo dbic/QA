@@ -45,14 +45,16 @@ mkdir -p "$HOME/.run"
 		-print0 |
 	while IFS= read -r -d '' mkv_file; do
 		rel_file="${mkv_file#./}"
+		rel_dir="$(dirname "$rel_file")"
 		base_name="$(basename "$rel_file" .mkv)"
-		REPRONIM_USE_DUCT=1 DUCT_OUTPUT_PREFIX='logs/qr/{datetime_filesafe}-{pid}_' \
+		mkdir -p "derivatives/qr/${rel_dir}" "logs/qr/${rel_dir}"
+		REPRONIM_USE_DUCT=1 DUCT_OUTPUT_PREFIX="logs/qr/${rel_dir}/{datetime_filesafe}-{pid}_" \
 		echo "singularity run code/containers/images/repronim/repronim-reprostim--0.7.34.sif --log-level DEBUG qr-parse " \
 		"--scale 0.5 " \
 		"--qr-decoder-workers 3 " \
 		"$rel_file " \
-		"> derivatives/qr/${base_name}.qrinfo.jsonl " \
-		"2>logs/qr/${base_name}.qrinfo.log"
+		">derivatives/qr/${rel_dir}/${base_name}.qrinfo.jsonl " \
+		"2>logs/qr/${rel_dir}/${base_name}.qrinfo.log"
 	done
 
 } 200>"$lock_file"
