@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+#
+# Execute ReproStim qr-parse tool on the BIDS dataset in the current directory
+# to extract QR codes from audiovideo/video.mkv files produced by the bids-inject tool
+#
+set -eu
+
+name=$(basename $0)
+cd "$(dirname $0)"/..
+
+dataset_dir="$(pwd)"
+
+lock_file="$HOME/.run/${name}.lock"
+
+# hardcoded sessions dir to be investigated
+# sub-qa64/20250811 - is the latest one we have in the dataset, and has a video with a QR code
+# sub-qa/20240809   - is the one we used for testing before in
+#                     https://github.com/ReproNim/reproflow-data-sync/tree/master/ses-20240809
+#                     and with significant DICOMs time shift
+# TODO: this will be exposed as a proper CLI param in the future
+session_dir="${1:-sub-qa64/ses-20250811}"
+#session_dir="sub-qa/ses-20240809"
+
+# Ensure the lock directory exists
+mkdir -p "$HOME/.run"
+
+
+#  tmp_mkv_file=$OUT_DIR/$base_name.mkv
+#  echo "Generating tmp *.mkv file $tmp_mkv_file..."
+#  ffmpeg -i "$file" -an -c copy "$tmp_mkv_file"
+#  reprostim --log-level $LOG_LEVEL qr-parse "$tmp_mkv_file" >"$OUT_DIR"/"$base_name".qrinfo.jsonl 2>"$OUT_DIR"/"$base_name".qrinfo.log
+#  if [ -e "$tmp_mkv_file" ]; then
+#    echo "Deleting tmp *.mkv file: $tmp_mkv_file"
+#    rm "$tmp_mkv_file"
+#  fi
+
+
+{
+	mkdir -p logs/qr
+	mkdir -p derivatives/qr
+	flock -n 200 || { echo "$name job is already running for $0." 2>&1 ; exit 1; }
+	# NOTE: will be replaced with datalad containers-run once we have a proper implementation
+	find "$session_dir" \( -type f -o -type l \) \
+		\( -name '*reprostim_audiovideo.mkv' -o -name '*reprostim_video.mkv' -o -name '*reprostim_audio.mkv' \) \
+		-print0 |
+	while IFS= read -r -d '' mkv_file; do
+		rel_file="${mkv_file#./}"
+		base_name="$(basename "$rel_file" .mkv)"
+		REPRONIM_USE_DUCT=1 DUCT_OUTPUT_PREFIX='logs/qr/{datetime_filesafe}-{pid}_' \
+		echo "singularity run code/containers/images/repronim/repronim-reprostim--0.7.34.sif --log-level DEBUG qr-parse " \
+		"--scale 0.5 " \
+		"--qr-decoder-workers 3 " \
+		"$rel_file " \
+		"> derivatives/qr/${base_name}.qrinfo.jsonl " \
+		"2>logs/qr/${base_name}.qrinfo.log"
+	done
+
+} 200>"$lock_file"
