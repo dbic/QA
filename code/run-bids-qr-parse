@@ -8,6 +8,7 @@ set -eu
 name=$(basename "$0")
 cd "$(dirname "$0")"/..
 
+img="code/containers/images/repronim/repronim-reprostim--0.7.34.sif"
 lock_file="$HOME/.run/${name}.lock"
 
 # hardcoded sessions dir to be investigated
@@ -47,7 +48,7 @@ mkdir -p "$HOME/.run"
 		base_name="$(basename "$rel_file")"
 		mkdir -p "derivatives/qr/${rel_dir}" "logs/qr/${rel_dir}"
 		REPRONIM_USE_DUCT=1 DUCT_OUTPUT_PREFIX="logs/qr/${rel_dir}/{datetime_filesafe}-{pid}_" \
-		singularity run code/containers/images/repronim/repronim-reprostim--0.7.34.sif \
+		code/containers/scripts/singularity_cmd run "$img" \
 			--log-level DEBUG qr-parse \
 				--scale 0.5 \
 				--qr-decoder-workers 3 \
