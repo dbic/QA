@@ -1,11 +1,11 @@
-filename	acq_time	operator	randstr
-func/sub-qa_ses-20190715_task-rest_acq-p2_bold.nii.gz	2019-07-15T09:24:46.202500	n/a	38c2e095
-func/sub-qa_ses-20190715_task-rest_acq-p2_rec-moco_bold.nii.gz	2019-07-15T09:24:46.202500	n/a	00843f94
-func/sub-qa_ses-20190715_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2019-07-15T09:31:41.155000	n/a	56367367
-func/sub-qa_ses-20190715_acq-32chX77flip_bold.nii.gz	2019-07-15T09:38:30.522500	n/a	4ce8fd4e
-func/sub-qa_ses-20190715_acq-32chX77flip_rec-moco_bold.nii.gz	2019-07-15T09:38:30.522500	n/a	ceb9b0a6
-func/sub-qa_ses-20190715_acq-32chX10flip_bold.nii.gz	2019-07-15T09:45:16.502500	n/a	da30f860
-func/sub-qa_ses-20190715_acq-32chX10flip_rec-moco_bold.nii.gz	2019-07-15T09:45:16.502500	n/a	4a98c08a
-dwi/sub-qa_ses-20190715_acq-DTIX30Xp2_dwi.nii.gz	2019-07-15T09:53:47.077500	n/a	4a4f7f5a
-dwi/sub-qa_ses-20190715_acq-DTIX30Xp2Xs4_dwi.nii.gz	2019-07-15T09:58:08.502500	n/a	00e6fcdc
-anat/sub-qa_ses-20190715_acq-MPRAGE_T1w.nii.gz	2019-07-15T10:00:00.755000	n/a	d0d4a2a4
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20190715_task-rest_acq-p2_bold.nii.gz	2019-07-15T09:24:46.202500	400.000	n/a	38c2e095
+func/sub-qa_ses-20190715_task-rest_acq-p2_rec-moco_bold.nii.gz	2019-07-15T09:24:46.202500	400.000	n/a	00843f94
+func/sub-qa_ses-20190715_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2019-07-15T09:31:41.155000	400.000	n/a	56367367
+func/sub-qa_ses-20190715_acq-32chX77flip_bold.nii.gz	2019-07-15T09:38:30.522500	400.000	n/a	4ce8fd4e
+func/sub-qa_ses-20190715_acq-32chX77flip_rec-moco_bold.nii.gz	2019-07-15T09:38:30.522500	400.000	n/a	ceb9b0a6
+func/sub-qa_ses-20190715_acq-32chX10flip_bold.nii.gz	2019-07-15T09:45:16.502500	400.000	n/a	da30f860
+func/sub-qa_ses-20190715_acq-32chX10flip_rec-moco_bold.nii.gz	2019-07-15T09:45:16.502500	400.000	n/a	4a98c08a
+dwi/sub-qa_ses-20190715_acq-DTIX30Xp2_dwi.nii.gz	2019-07-15T09:53:47.077500	238.680	n/a	4a4f7f5a
+dwi/sub-qa_ses-20190715_acq-DTIX30Xp2Xs4_dwi.nii.gz	2019-07-15T09:58:08.502500	111.580	n/a	00e6fcdc
+anat/sub-qa_ses-20190715_acq-MPRAGE_T1w.nii.gz	2019-07-15T10:00:00.755000	321.000	n/a	d0d4a2a4
