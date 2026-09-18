@@ -1,1 +1,5 @@
-../../.git/annex/objects/jQ/Q0/SHA256E-s396--3fff108e02839b9946e97edf4d5b872fc9bd4f0a5f22fdee04bd16f5359d6a3c.tsv/SHA256E-s396--3fff108e02839b9946e97edf4d5b872fc9bd4f0a5f22fdee04bd16f5359d6a3c.tsv
+filename	acq_time	operator	randstr
+func/sub-qa64_ses-20250429_task-rest_acq-p2_bold.nii.gz	2025-04-29T12:53:50.647500	n/a	7d93bd59
+func/sub-qa64_ses-20250429_acq-faX77_bold.nii.gz	2025-04-29T13:00:41.475000	n/a	35730ce7
+func/sub-qa64_ses-20250429_acq-faX10_bold.nii.gz	2025-04-29T13:07:28.487500	n/a	e3391035
+anat/sub-qa64_ses-20250429_acq-MPRAGE_T1w.nii.gz	2025-04-29T13:14:10	n/a	e90e8036

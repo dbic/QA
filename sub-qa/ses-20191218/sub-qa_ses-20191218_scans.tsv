@@ -1,1 +1,3 @@
-../../.git/annex/objects/Wg/km/SHA256E-s234--53412a03838add93645e90d706dc2d541736f628976d31d0634a0f414cc209c1.tsv/SHA256E-s234--53412a03838add93645e90d706dc2d541736f628976d31d0634a0f414cc209c1.tsv
+filename	acq_time	operator	randstr
+func/sub-qa_ses-20191218_task-rest_acq-p2_bold.nii.gz	2019-12-18T09:25:07.205000	n/a	2215004f
+func/sub-qa_ses-20191218_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2019-12-18T09:32:02.152500	n/a	a63f7d2b

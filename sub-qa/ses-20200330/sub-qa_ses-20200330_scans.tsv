@@ -1,1 +1,10 @@
-../../.git/annex/objects/Vx/52/SHA256E-s879--e5774e87dfa3288ad68ae17571bcc92bea65077dd9cef77b366cef3a24a3e229.tsv/SHA256E-s879--e5774e87dfa3288ad68ae17571bcc92bea65077dd9cef77b366cef3a24a3e229.tsv
+filename	acq_time	operator	randstr
+func/sub-qa_ses-20200330_task-rest_acq-p2_bold.nii.gz	2020-03-30T10:48:54.790000	n/a	9ada8fe7
+func/sub-qa_ses-20200330_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2020-03-30T10:55:49.200000	n/a	fae8530c
+func/sub-qa_ses-20200330_fa-77_bold.nii.gz	2020-03-30T11:02:39.537500	n/a	955e5f3b
+func/sub-qa_ses-20200330_fa-10_bold.nii.gz	2020-03-30T11:09:25.497500	n/a	37e427bc
+dwi/sub-qa_ses-20200330_acq-DTIX30Xp2_dwi.nii.gz	2020-03-30T11:16:39.182500	n/a	bd7512dc
+dwi/sub-qa_ses-20200330_acq-DTIX30Xp2Xs4_dwi.nii.gz	2020-03-30T11:21:01.477500	n/a	53bda79d
+anat/sub-qa_ses-20200330_acq-MPRAGE_T1w.nii.gz	2020-03-30T11:22:53.112500	n/a	c04b22b2
+anat/sub-qa_ses-20200330_acq-MPRAGEXuncombined_T1w.nii.gz	2020-03-30T11:28:16.867500	n/a	5d89268b
+anat/sub-qa_ses-20200330_acq-MPRAGEXuncombined_T1w__dup-01.nii.gz	2020-03-30T11:28:16.867500	n/a	57af2e8c

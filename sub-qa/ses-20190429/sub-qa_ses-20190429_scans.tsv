@@ -1,1 +1,8 @@
-../../.git/annex/objects/Kq/PV/SHA256E-s693--57678f47020110e1262fefcc82dcf8ce094ba126c371d04ab83c75bc8d69a3c5.tsv/SHA256E-s693--57678f47020110e1262fefcc82dcf8ce094ba126c371d04ab83c75bc8d69a3c5.tsv
+filename	acq_time	operator	randstr
+func/sub-qa_ses-20190429_task-rest_acq-p2_bold.nii.gz	2019-04-29T09:46:08.187500	n/a	f4300256
+func/sub-qa_ses-20190429_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2019-04-29T09:53:02.142500	n/a	12d2103e
+func/sub-qa_ses-20190429_acq-32chX77flip_bold.nii.gz	2019-04-29T09:59:51.475000	n/a	0dfb4cc9
+func/sub-qa_ses-20190429_acq-32chX10flip_bold.nii.gz	2019-04-29T10:06:38.492500	n/a	08233a5b
+dwi/sub-qa_ses-20190429_acq-DTIX30Xp2_dwi.nii.gz	2019-04-29T10:14:16.060000	n/a	d9179f9b
+dwi/sub-qa_ses-20190429_acq-DTIX30Xp2Xs4_dwi.nii.gz	2019-04-29T10:18:37.460000	n/a	6645e5a2
+anat/sub-qa_ses-20190429_acq-MPRAGE_T1w.nii.gz	2019-04-29T10:20:29.750000	n/a	c412b58d

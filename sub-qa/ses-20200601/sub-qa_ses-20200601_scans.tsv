@@ -1,1 +1,8 @@
-../../.git/annex/objects/VW/41/SHA256E-s673--f04a1a2ee47e3b92edb87a6907c825b79010998423fbf1ae78024bb7e9aaf8d3.tsv/SHA256E-s673--f04a1a2ee47e3b92edb87a6907c825b79010998423fbf1ae78024bb7e9aaf8d3.tsv
+filename	acq_time	operator	randstr
+func/sub-qa_ses-20200601_task-rest_acq-p2_bold.nii.gz	2020-06-01T10:26:13.490000	n/a	33d54103
+func/sub-qa_ses-20200601_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2020-06-01T10:33:07.352500	n/a	32c65f2c
+func/sub-qa_ses-20200601_fa-77_bold.nii.gz	2020-06-01T10:39:57.497500	n/a	9f0be5c4
+func/sub-qa_ses-20200601_fa-10_bold.nii.gz	2020-06-01T10:46:43.492500	n/a	e97ca175
+dwi/sub-qa_ses-20200601_acq-DTIX30Xp2_dwi.nii.gz	2020-06-01T10:56:57.010000	n/a	6ecdac76
+dwi/sub-qa_ses-20200601_acq-DTIX30Xp2Xs4_dwi.nii.gz	2020-06-01T11:01:16.470000	n/a	a67a4271
+anat/sub-qa_ses-20200601_acq-MPRAGE_T1w.nii.gz	2020-06-01T11:03:08.045000	n/a	73ff0958

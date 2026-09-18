@@ -1,1 +1,11 @@
-../../.git/annex/objects/92/1g/SHA256E-s1003--99f746b10c232e386619810cab1db36c0f90d04318cd4289b630eacf58b55434.tsv/SHA256E-s1003--99f746b10c232e386619810cab1db36c0f90d04318cd4289b630eacf58b55434.tsv
+filename	acq_time	operator	randstr
+func/sub-qa_ses-20190708_task-rest_acq-p2_bold.nii.gz	2019-07-08T09:08:51.785000	n/a	649829aa
+func/sub-qa_ses-20190708_task-rest_acq-p2_rec-moco_bold.nii.gz	2019-07-08T09:08:51.785000	n/a	b80a1189
+func/sub-qa_ses-20190708_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2019-07-08T09:15:46.155000	n/a	12b2f896
+func/sub-qa_ses-20190708_acq-32chX77flip_bold.nii.gz	2019-07-08T09:23:39.605000	n/a	a6ed3ec4
+func/sub-qa_ses-20190708_acq-32chX77flip_rec-moco_bold.nii.gz	2019-07-08T09:23:39.605000	n/a	04a42cb4
+func/sub-qa_ses-20190708_acq-32chX10flip_bold.nii.gz	2019-07-08T09:30:25.510000	n/a	719e7a2d
+func/sub-qa_ses-20190708_acq-32chX10flip_rec-moco_bold.nii.gz	2019-07-08T09:30:25.510000	n/a	a5f67b85
+dwi/sub-qa_ses-20190708_acq-DTIX30Xp2_dwi.nii.gz	2019-07-08T09:37:38.187500	n/a	e28a2a5c
+dwi/sub-qa_ses-20190708_acq-DTIX30Xp2Xs4_dwi.nii.gz	2019-07-08T09:42:00.460000	n/a	e8ce9b8d
+anat/sub-qa_ses-20190708_acq-MPRAGE_T1w.nii.gz	2019-07-08T09:43:52.740000	n/a	5ac14c7c

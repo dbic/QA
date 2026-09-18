@@ -1,1 +1,5 @@
-../../.git/annex/objects/ZX/gQ/SHA256E-s402--4c02bfd95c937e008540e44ab96b8eae91980d708a294e0aabd2be5d824af48a.tsv/SHA256E-s402--4c02bfd95c937e008540e44ab96b8eae91980d708a294e0aabd2be5d824af48a.tsv
+filename	acq_time	operator	randstr
+func/sub-qa_ses-20200304_task-rest_acq-p2_bold.nii.gz	2020-03-04T08:39:28.200000	n/a	5043da80
+func/sub-qa_ses-20200304_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2020-03-04T08:46:22.160000	n/a	c2b0a49e
+func/sub-qa_ses-20200304_fa-77_bold.nii.gz	2020-03-04T08:53:12.515000	n/a	6a9d19dc
+func/sub-qa_ses-20200304_fa-10_bold.nii.gz	2020-03-04T08:59:58.502500	n/a	a4e296ca

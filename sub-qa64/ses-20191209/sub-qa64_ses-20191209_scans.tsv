@@ -1,1 +1,5 @@
-../../.git/annex/objects/Vw/57/SHA256E-s395--fea262b232dcafcd6aed52cb33d1cffb7eb522716f77e8538da029427685379f.tsv/SHA256E-s395--fea262b232dcafcd6aed52cb33d1cffb7eb522716f77e8538da029427685379f.tsv
+filename	acq_time	operator	randstr
+func/sub-qa64_ses-20191209_task-rest_acq-p2_bold.nii.gz	2019-12-09T09:04:17.850000	n/a	1ab88728
+func/sub-qa64_ses-20191209_fa-77_bold.nii.gz	2019-12-09T09:11:08.547500	n/a	1d061c26
+func/sub-qa64_ses-20191209_fa-10_bold.nii.gz	2019-12-09T09:17:55.525000	n/a	c9658295
+anat/sub-qa64_ses-20191209_acq-MPRAGE_T1w.nii.gz	2019-12-09T09:24:37.765000	n/a	2b366b08

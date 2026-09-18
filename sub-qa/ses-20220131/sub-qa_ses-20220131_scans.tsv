@@ -1,1 +1,8 @@
-../../.git/annex/objects/47/Wg/SHA256E-s673--627090e50bda140ead89ed42f4a084d3548a52fc8f7e4a6f89aba7e60c58de4c.tsv/SHA256E-s673--627090e50bda140ead89ed42f4a084d3548a52fc8f7e4a6f89aba7e60c58de4c.tsv
+filename	acq_time	operator	randstr
+func/sub-qa_ses-20220131_task-rest_acq-p2_bold.nii.gz	2022-01-31T09:46:25.775000	n/a	23b4aa60
+func/sub-qa_ses-20220131_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2022-01-31T09:53:20.075000	n/a	dad49fed
+func/sub-qa_ses-20220131_fa-77_bold.nii.gz	2022-01-31T10:00:09.422500	n/a	96389eac
+func/sub-qa_ses-20220131_fa-10_bold.nii.gz	2022-01-31T10:06:55.462500	n/a	3cb0992b
+dwi/sub-qa_ses-20220131_acq-DTIX30Xp2_dwi.nii.gz	2022-01-31T10:14:09.230000	n/a	6beee593
+dwi/sub-qa_ses-20220131_acq-DTIX30Xp2Xs4_dwi.nii.gz	2022-01-31T10:18:27.425000	n/a	6dabac85
+anat/sub-qa_ses-20220131_acq-MPRAGE_T1w.nii.gz	2022-01-31T10:20:18.965000	n/a	645d4479

@@ -1,1 +1,9 @@
-../../.git/annex/objects/1k/vg/SHA256E-s774--5eae1393201d67fd3750c74c7eefee3b04a84c3f64bee3202f80b6882fce9a9f.tsv/SHA256E-s774--5eae1393201d67fd3750c74c7eefee3b04a84c3f64bee3202f80b6882fce9a9f.tsv
+filename	acq_time	operator	randstr
+func/sub-qa_ses-20210104_task-rest_acq-p2_bold.nii.gz	2021-01-04T09:49:29.847500	n/a	440e0842
+func/sub-qa_ses-20210104_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2021-01-04T09:56:24.290000	n/a	a59261a2
+func/sub-qa_ses-20210104_fa-77_bold.nii.gz	2021-01-04T10:03:14.500000	n/a	daeda197
+func/sub-qa_ses-20210104_fa-10_bold.nii.gz	2021-01-04T10:10:00.505000	n/a	ffe8f66c
+dwi/sub-qa_ses-20210104_acq-DTIX30Xp2_dwi.nii.gz	2021-01-04T10:17:14.192500	n/a	dbbff6f3
+dwi/sub-qa_ses-20210104_acq-DTIX30Xp2Xs4_dwi__dup-01.nii.gz	2021-01-04T10:21:32.490000	n/a	351324d1
+dwi/sub-qa_ses-20210104_acq-DTIX30Xp2Xs4_dwi.nii.gz	2021-01-04T10:31:10.682500	n/a	bfeba67b
+anat/sub-qa_ses-20210104_acq-MPRAGE_T1w.nii.gz	2021-01-04T10:33:02.200000	n/a	4e9e9dfc

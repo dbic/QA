@@ -1,1 +1,6 @@
-../../.git/annex/objects/vw/fj/SHA256E-s505--bf5a462bf69d30cb95bb396aff4eba73c0eba50b2aa2f500d9bcceb63b7022d6.tsv/SHA256E-s505--bf5a462bf69d30cb95bb396aff4eba73c0eba50b2aa2f500d9bcceb63b7022d6.tsv
+filename	acq_time	operator	randstr
+func/sub-qa_ses-20171218_task-rest_acq-p2_bold.nii.gz	2017-12-18T09:23:12.202500	n/a	59c2303c
+func/sub-qa_ses-20171218_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2017-12-18T09:30:06.157500	n/a	bc311f0b
+dwi/sub-qa_ses-20171218_acq-DTIX30Xp2_dwi.nii.gz	2017-12-18T09:37:29.050000	n/a	95dd89ea
+dwi/sub-qa_ses-20171218_acq-DTIX30Xp2Xs4_dwi.nii.gz	2017-12-18T09:41:50.462500	n/a	c581266e
+anat/sub-qa_ses-20171218_acq-MPRAGE_T1w.nii.gz	2017-12-18T09:43:42.760000	n/a	b3a46be1

@@ -1,1 +1,3 @@
-../../.git/annex/objects/vx/M7/SHA256E-s234--9c0df47ba48df4d40f6d1982da4d21af198eeb0f405242ef722d4956ad2b4802.tsv/SHA256E-s234--9c0df47ba48df4d40f6d1982da4d21af198eeb0f405242ef722d4956ad2b4802.tsv
+filename	acq_time	operator	randstr
+func/sub-qa_ses-20230131_task-rest_acq-p2_bold.nii.gz	2023-01-31T11:11:40.772500	n/a	ab811b70
+func/sub-qa_ses-20230131_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2023-01-31T11:18:35.067500	n/a	89851573
