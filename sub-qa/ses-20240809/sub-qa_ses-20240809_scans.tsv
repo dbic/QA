@@ -1,12 +1,12 @@
-filename	acq_time	operator	randstr
-func/sub-qa_ses-20240809_task-rest_acq-short1_run-01_bold.nii.gz	2024-08-09T10:08:25.687500	n/a	9b85b193
-func/sub-qa_ses-20240809_task-rest_acq-short1_run-02_bold.nii.gz	2024-08-09T10:15:58.387500	n/a	291f1fe0
-func/sub-qa_ses-20240809_task-rest_acq-short1_run-03_bold.nii.gz	2024-08-09T10:24:40.152500	n/a	13b17d1b
-func/sub-qa_ses-20240809_task-rest_acq-short1_run-04_bold.nii.gz	2024-08-09T10:33:43.812500	n/a	91520e60
-func/sub-qa_ses-20240809_task-rest_acq-short1_run-05_bold.nii.gz	2024-08-09T10:38:11.895000	n/a	61923f58
-func/sub-qa_ses-20240809_task-rest_acq-short1_run-06_bold.nii.gz	2024-08-09T10:39:53.787500	n/a	fb615760
-func/sub-qa_ses-20240809_task-rest_acq-short1_run-07_bold.nii.gz	2024-08-09T10:41:39.447500	n/a	2f48c101
-func/sub-qa_ses-20240809_task-rest_acq-med1_run-01_bold.nii.gz	2024-08-09T10:44:39.187500	n/a	3183cb2a
-func/sub-qa_ses-20240809_task-rest_acq-med1_run-02_bold.nii.gz	2024-08-09T10:54:20.392500	n/a	2c16da15
-func/sub-qa_ses-20240809_task-rest_acq-med1_run-03_bold.nii.gz	2024-08-09T11:00:55.857500	n/a	6efbb7d9
-func/sub-qa_ses-20240809_task-rest_acq-med1_run-04_bold.nii.gz	2024-08-09T11:06:46.242500	n/a	8454ebb0
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20240809_task-rest_acq-short1_run-01_bold.nii.gz	2024-08-09T10:08:25.687500	30.000	n/a	9b85b193
+func/sub-qa_ses-20240809_task-rest_acq-short1_run-02_bold.nii.gz	2024-08-09T10:15:58.387500	30.000	n/a	291f1fe0
+func/sub-qa_ses-20240809_task-rest_acq-short1_run-03_bold.nii.gz	2024-08-09T10:24:40.152500	30.000	n/a	13b17d1b
+func/sub-qa_ses-20240809_task-rest_acq-short1_run-04_bold.nii.gz	2024-08-09T10:33:43.812500	30.000	n/a	91520e60
+func/sub-qa_ses-20240809_task-rest_acq-short1_run-05_bold.nii.gz	2024-08-09T10:38:11.895000	30.000	n/a	61923f58
+func/sub-qa_ses-20240809_task-rest_acq-short1_run-06_bold.nii.gz	2024-08-09T10:39:53.787500	30.000	n/a	fb615760
+func/sub-qa_ses-20240809_task-rest_acq-short1_run-07_bold.nii.gz	2024-08-09T10:41:39.447500	30.000	n/a	2f48c101
+func/sub-qa_ses-20240809_task-rest_acq-med1_run-01_bold.nii.gz	2024-08-09T10:44:39.187500	300.000	n/a	3183cb2a
+func/sub-qa_ses-20240809_task-rest_acq-med1_run-02_bold.nii.gz	2024-08-09T10:54:20.392500	300.000	n/a	2c16da15
+func/sub-qa_ses-20240809_task-rest_acq-med1_run-03_bold.nii.gz	2024-08-09T11:00:55.857500	300.000	n/a	6efbb7d9
+func/sub-qa_ses-20240809_task-rest_acq-med1_run-04_bold.nii.gz	2024-08-09T11:06:46.242500	300.000	n/a	8454ebb0

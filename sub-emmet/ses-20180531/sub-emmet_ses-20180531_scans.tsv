@@ -1,10 +1,10 @@
-filename	acq_time	operator	randstr
-func/sub-emmet_ses-20180531_task-rest_acq-p2_bold.nii.gz	2018-05-31T09:29:52.460000	n/a	e67d9a43
-dwi/sub-emmet_ses-20180531_acq-DTIX30Xp2X2mm_dwi.nii.gz	2018-05-31T09:37:52.060000	n/a	c3eae24a
-anat/sub-emmet_ses-20180531_acq-MPRAGE_T1w.nii.gz	2018-05-31T09:41:49.957500	n/a	9f4254ec
-func/sub-emmet_ses-20180531_task-rest_acq-3mm_bold.nii.gz	2018-05-31T09:47:57.045000	n/a	32216b89
-fmap/sub-emmet_ses-20180531_acq-topupXb0X3mm_dir-AP_epi.nii.gz	2018-05-31T09:49:18.475000	n/a	40d2c8ae
-fmap/sub-emmet_ses-20180531_acq-topupXb0X3mm_dir-PA_epi.nii.gz	2018-05-31T09:49:38.435000	n/a	4fdeed41
-fmap/sub-emmet_ses-20180531_acq-3mm_dir-AP_echo-1_epi.nii.gz	2018-05-31T09:49:46.965000	n/a	6837f6b8
-fmap/sub-emmet_ses-20180531_acq-3mm_dir-AP_echo-2_epi.nii.gz	2018-05-31T09:49:46.965000	n/a	6837f6b8
-fmap/sub-emmet_ses-20180531_acq-3mm_dir-AP_phasediff.nii.gz	2018-05-31T09:49:47.487500	n/a	6d5fa7a5
+filename	acq_time	duration	operator	randstr
+func/sub-emmet_ses-20180531_task-rest_acq-p2_bold.nii.gz	2018-05-31T09:29:52.460000	400.000	n/a	e67d9a43
+dwi/sub-emmet_ses-20180531_acq-DTIX30Xp2X2mm_dwi.nii.gz	2018-05-31T09:37:52.060000	238.680	n/a	c3eae24a
+anat/sub-emmet_ses-20180531_acq-MPRAGE_T1w.nii.gz	2018-05-31T09:41:49.957500	321.000	n/a	9f4254ec
+func/sub-emmet_ses-20180531_task-rest_acq-3mm_bold.nii.gz	2018-05-31T09:47:57.045000	63.900	n/a	32216b89
+fmap/sub-emmet_ses-20180531_acq-topupXb0X3mm_dir-AP_epi.nii.gz	2018-05-31T09:49:18.475000	7.180	n/a	40d2c8ae
+fmap/sub-emmet_ses-20180531_acq-topupXb0X3mm_dir-PA_epi.nii.gz	2018-05-31T09:49:38.435000	7.183	n/a	4fdeed41
+fmap/sub-emmet_ses-20180531_acq-3mm_dir-AP_echo-1_epi.nii.gz	2018-05-31T09:49:46.965000	n/a	n/a	6837f6b8
+fmap/sub-emmet_ses-20180531_acq-3mm_dir-AP_echo-2_epi.nii.gz	2018-05-31T09:49:46.965000	n/a	n/a	6837f6b8
+fmap/sub-emmet_ses-20180531_acq-3mm_dir-AP_phasediff.nii.gz	2018-05-31T09:49:47.487500	0.517	n/a	6d5fa7a5

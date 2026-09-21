@@ -1,2 +1,2 @@
-filename	acq_time	operator	randstr
-func/sub-qa_ses-20220606_task-rest_acq-p2_bold.nii.gz	2022-06-06T10:23:45.710000	n/a	5d431feb
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20220606_task-rest_acq-p2_bold.nii.gz	2022-06-06T10:23:45.710000	400.000	n/a	5d431feb

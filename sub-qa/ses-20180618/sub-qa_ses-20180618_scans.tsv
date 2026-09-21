@@ -1,6 +1,6 @@
-filename	acq_time	operator	randstr
-func/sub-qa_ses-20180618_task-rest_acq-p2_bold.nii.gz	2018-06-18T09:41:24.805000	n/a	2e28a0c7
-func/sub-qa_ses-20180618_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2018-06-18T09:48:19.147500	n/a	e5075cb5
-dwi/sub-qa_ses-20180618_acq-DTIX30Xp2_dwi.nii.gz	2018-06-18T09:55:31.182500	n/a	403f4407
-dwi/sub-qa_ses-20180618_acq-DTIX30Xp2Xs4_dwi.nii.gz	2018-06-18T09:59:53.457500	n/a	3ebc559c
-anat/sub-qa_ses-20180618_acq-MPRAGE_T1w.nii.gz	2018-06-18T10:01:45.767500	n/a	408a22e8
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20180618_task-rest_acq-p2_bold.nii.gz	2018-06-18T09:41:24.805000	400.000	n/a	2e28a0c7
+func/sub-qa_ses-20180618_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2018-06-18T09:48:19.147500	400.000	n/a	e5075cb5
+dwi/sub-qa_ses-20180618_acq-DTIX30Xp2_dwi.nii.gz	2018-06-18T09:55:31.182500	238.680	n/a	403f4407
+dwi/sub-qa_ses-20180618_acq-DTIX30Xp2Xs4_dwi.nii.gz	2018-06-18T09:59:53.457500	111.582	n/a	3ebc559c
+anat/sub-qa_ses-20180618_acq-MPRAGE_T1w.nii.gz	2018-06-18T10:01:45.767500	321.000	n/a	408a22e8
