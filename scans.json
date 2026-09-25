@@ -31,5 +31,10 @@
     "LongName": "ReproStim buffer after scan end",
     "Description": "Actual buffer appended after scan end",
     "Units": "s"
+  },
+  "duration": {
+    "LongName": "Scan duration",
+    "Description": "Wall-clock duration of the recording in seconds, measured from the acquisition of the first data sample to the completion of the acquisition of the last data sample.",
+    "Units": "s"
   }
 }
