@@ -38,12 +38,20 @@ mkdir -p "$HOME/.run"
 # BIDS_INJECT_EXTRA_ARGS="--metadata-only" code/reprostim-bids-inject
 #
 
+# REPROSTIM_RUN_CMD: datalad subcommand (+ options) used to run bids-inject.
+# Defaults to the repronim-reprostim container; override to "run" to use a
+# local reprostim installed in a venv instead:
+#
+# REPROSTIM_RUN_CMD="run" code/reprostim-bids-inject
+#
+REPROSTIM_RUN_CMD="${REPROSTIM_RUN_CMD:-containers-run -n repronim-reprostim}"
+
 {
 	mkdir -p logs/bids-inject
 	flock -n 200 || { echo "$name job is already running for $0." 2>&1 ; exit 1; }
 	REPRONIM_USE_DUCT=1 DUCT_OUTPUT_PREFIX='logs/bids-inject/{datetime_filesafe}-{pid}_' \
-	datalad containers-run -m "Run code/reprostim-bids-inject on ${session_dir} ${BIDS_INJECT_EXTRA_ARGS:+[$BIDS_INJECT_EXTRA_ARGS]}" \
-		-n repronim-reprostim \
+	datalad ${REPROSTIM_RUN_CMD} \
+		-m "Run code/reprostim-bids-inject on ${session_dir} ${BIDS_INJECT_EXTRA_ARGS:+[$BIDS_INJECT_EXTRA_ARGS]}" \
 		--input sourcedata/reprostim-reproiner \
 		--input "${session_dir}" \
 		--output "logs/bids-inject/*.*" \
