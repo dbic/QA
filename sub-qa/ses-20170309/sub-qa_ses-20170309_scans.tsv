@@ -1,3 +1,3 @@
-filename	acq_time	operator	randstr
-func/sub-qa_ses-20170309_task-rest_acq-p2_bold.nii.gz	2017-03-09T09:06:25.782500	n/a	0df44237
-func/sub-qa_ses-20170309_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2017-03-09T09:13:20.092500	n/a	df4e117a
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20170309_task-rest_acq-p2_bold.nii.gz	2017-03-09T09:06:25.782500	400.000	n/a	0df44237
+func/sub-qa_ses-20170309_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2017-03-09T09:13:20.092500	164.000	n/a	df4e117a

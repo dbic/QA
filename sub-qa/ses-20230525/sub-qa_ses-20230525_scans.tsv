@@ -1,2 +1,2 @@
-filename	acq_time	operator	randstr
-func/sub-qa_ses-20230525_task-rest_acq-p2_bold.nii.gz	2023-05-25T14:30:42.737500	n/a	97915331
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20230525_task-rest_acq-p2_bold.nii.gz	2023-05-25T14:30:42.737500	400.000	n/a	97915331
