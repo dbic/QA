@@ -1,8 +1,8 @@
-filename	acq_time	operator	randstr
-func/sub-qa_ses-20220808_task-rest_acq-p2_bold.nii.gz	2022-08-08T09:40:28.772500	n/a	2737071d
-func/sub-qa_ses-20220808_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2022-08-08T09:47:20.077500	n/a	18309aad
-func/sub-qa_ses-20220808_fa-77_bold.nii.gz	2022-08-08T09:54:06.412500	n/a	5f94365e
-func/sub-qa_ses-20220808_fa-10_bold.nii.gz	2022-08-08T10:00:53.457500	n/a	2fbd65d4
-dwi/sub-qa_ses-20220808_acq-DTIX30Xp2_dwi.nii.gz	2022-08-08T10:08:06.200000	n/a	7c71a02a
-dwi/sub-qa_ses-20220808_acq-DTIX30Xp2Xs4_dwi.nii.gz	2022-08-08T10:12:24.502500	n/a	362d32f0
-anat/sub-qa_ses-20220808_acq-MPRAGE_T1w.nii.gz	2022-08-08T10:14:16.950000	n/a	9b84f88f
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20220808_task-rest_acq-p2_bold.nii.gz	2022-08-08T09:40:28.772500	400.000	n/a	2737071d
+func/sub-qa_ses-20220808_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2022-08-08T09:47:20.077500	400.000	n/a	18309aad
+func/sub-qa_ses-20220808_fa-77_bold.nii.gz	2022-08-08T09:54:06.412500	400.000	n/a	5f94365e
+func/sub-qa_ses-20220808_fa-10_bold.nii.gz	2022-08-08T10:00:53.457500	400.000	n/a	2fbd65d4
+dwi/sub-qa_ses-20220808_acq-DTIX30Xp2_dwi.nii.gz	2022-08-08T10:08:06.200000	238.700	n/a	7c71a02a
+dwi/sub-qa_ses-20220808_acq-DTIX30Xp2Xs4_dwi.nii.gz	2022-08-08T10:12:24.502500	111.600	n/a	362d32f0
+anat/sub-qa_ses-20220808_acq-MPRAGE_T1w.nii.gz	2022-08-08T10:14:16.950000	321.000	n/a	9b84f88f

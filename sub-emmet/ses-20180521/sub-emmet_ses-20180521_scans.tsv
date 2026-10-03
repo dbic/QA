@@ -1,21 +1,21 @@
-filename	acq_time	operator	randstr
-func/sub-emmet_ses-20180521_task-rest_acq-p2_bold.nii.gz	2018-05-21T10:48:12.492500	n/a	6072612b
-func/sub-emmet_ses-20180521_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2018-05-21T10:55:07.095000	n/a	a560bdc5
-dwi/sub-emmet_ses-20180521_acq-DTIX30Xp2X2mm_dwi.nii.gz	2018-05-21T11:02:30.057500	n/a	926b99b2
-dwi/sub-emmet_ses-20180521_acq-DTIX30Xp2Xs4X2mm_dwi.nii.gz	2018-05-21T11:06:51.485000	n/a	c8184f38
-anat/sub-emmet_ses-20180521_acq-MPRAGE_T1w.nii.gz	2018-05-21T11:08:42.992500	n/a	99f048c1
-func/sub-emmet_ses-20180521_task-rest_acq-3mm_bold.nii.gz	2018-05-21T11:14:36.722500	n/a	1139f374
-fmap/sub-emmet_ses-20180521_acq-topupXb0X3mm_dir-AP_epi.nii.gz	2018-05-21T11:16:12.457500	n/a	1c78fe7d
-fmap/sub-emmet_ses-20180521_acq-topupXb0X3mm_dir-PA_epi.nii.gz	2018-05-21T11:16:57.275000	n/a	569436f2
-fmap/sub-emmet_ses-20180521_acq-3mm_dir-AP_echo-1_epi.nii.gz	2018-05-21T11:17:05.957500	n/a	7b45e8ec
-fmap/sub-emmet_ses-20180521_acq-3mm_dir-AP_echo-2_epi.nii.gz	2018-05-21T11:17:05.957500	n/a	7b45e8ec
-fmap/sub-emmet_ses-20180521_acq-3mm_dir-AP_phasediff.nii.gz	2018-05-21T11:17:06.480000	n/a	2d08c5c2
-fmap/sub-emmet_ses-20180521_acq-3mm_dir-RL_echo-1_epi.nii.gz	2018-05-21T11:18:37.232500	n/a	3699c638
-fmap/sub-emmet_ses-20180521_acq-3mm_dir-RL_echo-2_epi.nii.gz	2018-05-21T11:18:37.232500	n/a	3699c638
-fmap/sub-emmet_ses-20180521_acq-3mm_dir-RL_phasediff.nii.gz	2018-05-21T11:18:37.755000	n/a	e192e34a
-fmap/sub-emmet_ses-20180521_acq-3mm_dir-PA_echo-1_epi.nii.gz	2018-05-21T11:20:06.235000	n/a	d5cb6d91
-fmap/sub-emmet_ses-20180521_acq-3mm_dir-PA_echo-2_epi.nii.gz	2018-05-21T11:20:06.235000	n/a	d5cb6d91
-fmap/sub-emmet_ses-20180521_acq-3mm_dir-PA_phasediff.nii.gz	2018-05-21T11:20:06.757500	n/a	47a2be9b
-fmap/sub-emmet_ses-20180521_acq-3mm_dir-LR_echo-1_epi.nii.gz	2018-05-21T11:21:37.242500	n/a	01b2d214
-fmap/sub-emmet_ses-20180521_acq-3mm_dir-LR_echo-2_epi.nii.gz	2018-05-21T11:21:37.242500	n/a	01b2d214
-fmap/sub-emmet_ses-20180521_acq-3mm_dir-LR_phasediff.nii.gz	2018-05-21T11:21:37.765000	n/a	d4d4d459
+filename	acq_time	duration	operator	randstr
+func/sub-emmet_ses-20180521_task-rest_acq-p2_bold.nii.gz	2018-05-21T10:48:12.492500	400.000	n/a	6072612b
+func/sub-emmet_ses-20180521_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2018-05-21T10:55:07.095000	400.000	n/a	a560bdc5
+dwi/sub-emmet_ses-20180521_acq-DTIX30Xp2X2mm_dwi.nii.gz	2018-05-21T11:02:26.217500	238.680	n/a	926b99b2
+dwi/sub-emmet_ses-20180521_acq-DTIX30Xp2Xs4X2mm_dwi.nii.gz	2018-05-21T11:06:48.900000	111.580	n/a	c8184f38
+anat/sub-emmet_ses-20180521_acq-MPRAGE_T1w.nii.gz	2018-05-21T11:08:42.992500	321.000	n/a	99f048c1
+func/sub-emmet_ses-20180521_task-rest_acq-3mm_bold.nii.gz	2018-05-21T11:14:36.722500	63.897	n/a	1139f374
+fmap/sub-emmet_ses-20180521_acq-topupXb0X3mm_dir-AP_epi.nii.gz	2018-05-21T11:16:08.867500	7.180	n/a	1c78fe7d
+fmap/sub-emmet_ses-20180521_acq-topupXb0X3mm_dir-PA_epi.nii.gz	2018-05-21T11:16:53.685000	7.180	n/a	569436f2
+fmap/sub-emmet_ses-20180521_acq-3mm_dir-AP_echo-1_epi.nii.gz	2018-05-21T11:17:05.957500	n/a	n/a	7b45e8ec
+fmap/sub-emmet_ses-20180521_acq-3mm_dir-AP_echo-2_epi.nii.gz	2018-05-21T11:17:05.957500	n/a	n/a	7b45e8ec
+fmap/sub-emmet_ses-20180521_acq-3mm_dir-AP_phasediff.nii.gz	2018-05-21T11:17:06.220000	0.520	n/a	2d08c5c2
+fmap/sub-emmet_ses-20180521_acq-3mm_dir-RL_echo-1_epi.nii.gz	2018-05-21T11:18:37.232500	n/a	n/a	3699c638
+fmap/sub-emmet_ses-20180521_acq-3mm_dir-RL_echo-2_epi.nii.gz	2018-05-21T11:18:37.232500	n/a	n/a	3699c638
+fmap/sub-emmet_ses-20180521_acq-3mm_dir-RL_phasediff.nii.gz	2018-05-21T11:18:37.495000	0.517	n/a	e192e34a
+fmap/sub-emmet_ses-20180521_acq-3mm_dir-PA_echo-1_epi.nii.gz	2018-05-21T11:20:06.235000	n/a	n/a	d5cb6d91
+fmap/sub-emmet_ses-20180521_acq-3mm_dir-PA_echo-2_epi.nii.gz	2018-05-21T11:20:06.235000	n/a	n/a	d5cb6d91
+fmap/sub-emmet_ses-20180521_acq-3mm_dir-PA_phasediff.nii.gz	2018-05-21T11:20:06.497500	0.520	n/a	47a2be9b
+fmap/sub-emmet_ses-20180521_acq-3mm_dir-LR_echo-1_epi.nii.gz	2018-05-21T11:21:37.242500	n/a	n/a	01b2d214
+fmap/sub-emmet_ses-20180521_acq-3mm_dir-LR_echo-2_epi.nii.gz	2018-05-21T11:21:37.242500	n/a	n/a	01b2d214
+fmap/sub-emmet_ses-20180521_acq-3mm_dir-LR_phasediff.nii.gz	2018-05-21T11:21:37.505000	0.517	n/a	d4d4d459

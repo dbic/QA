@@ -1,5 +1,5 @@
-filename	acq_time	operator	randstr
-func/sub-qa64_ses-20200106_task-rest_acq-p2_bold.nii.gz	2020-01-06T10:43:13.207500	n/a	e2ec81bf
-func/sub-qa64_ses-20200106_fa-77_bold.nii.gz	2020-01-06T10:50:01.530000	n/a	8c26c45d
-func/sub-qa64_ses-20200106_fa-10_bold.nii.gz	2020-01-06T10:56:48.500000	n/a	49f39626
-anat/sub-qa64_ses-20200106_acq-MPRAGE_T1w.nii.gz	2020-01-06T11:03:30.790000	n/a	e6638b69
+filename	acq_time	duration	operator	randstr
+func/sub-qa64_ses-20200106_task-rest_acq-p2_bold.nii.gz	2020-01-06T10:43:13.207500	400.000	n/a	e2ec81bf
+func/sub-qa64_ses-20200106_fa-77_bold.nii.gz	2020-01-06T10:50:01.530000	400.000	n/a	8c26c45d
+func/sub-qa64_ses-20200106_fa-10_bold.nii.gz	2020-01-06T10:56:48.500000	400.000	n/a	49f39626
+anat/sub-qa64_ses-20200106_acq-MPRAGE_T1w.nii.gz	2020-01-06T11:03:30.790000	321.000	n/a	e6638b69
