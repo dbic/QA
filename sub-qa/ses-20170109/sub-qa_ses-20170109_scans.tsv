@@ -1,6 +1,6 @@
-filename	acq_time	operator	randstr
-func/sub-qa_ses-20170109_task-rest_acq-p2_bold.nii.gz	2017-01-09T10:27:39.207500	n/a	addc0532
-func/sub-qa_ses-20170109_task-rest_acq-p2_rec-moco_bold.nii.gz	2017-01-09T10:27:39.207500	n/a	4be25cb2
-func/sub-qa_ses-20170109_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2017-01-09T10:33:05.212500	n/a	d14cb9be
-dwi/sub-qa_ses-20170109_acq-DTIX30Xp2_dwi.nii.gz	2017-01-09T10:36:35.077500	n/a	6e19b8be
-dwi/sub-qa_ses-20170109_acq-DTIX30Xp2Xs4_dwi.nii.gz	2017-01-09T10:40:53.472500	n/a	1f4ddc21
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20170109_task-rest_acq-p2_bold.nii.gz	2017-01-09T10:27:39.207500	314.000	n/a	addc0532
+func/sub-qa_ses-20170109_task-rest_acq-p2_rec-moco_bold.nii.gz	2017-01-09T10:27:39.207500	314.000	n/a	4be25cb2
+func/sub-qa_ses-20170109_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2017-01-09T10:33:05.212500	82.425	n/a	d14cb9be
+dwi/sub-qa_ses-20170109_acq-DTIX30Xp2_dwi.nii.gz	2017-01-09T10:36:31.237500	238.680	n/a	6e19b8be
+dwi/sub-qa_ses-20170109_acq-DTIX30Xp2Xs4_dwi.nii.gz	2017-01-09T10:40:50.887500	111.580	n/a	1f4ddc21

@@ -1,5 +1,5 @@
-filename	acq_time	operator	randstr
-func/sub-qa_ses-20170329_task-rest_acq-p2_bold.nii.gz	2017-03-29T08:34:23.220000	n/a	a6682bef
-func/sub-qa_ses-20170329_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2017-03-29T08:41:17.177500	n/a	61ea5947
-dwi/sub-qa_ses-20170329_acq-DTIX30Xp2_dwi.nii.gz	2017-03-29T08:48:45.065000	n/a	dab5019e
-dwi/sub-qa_ses-20170329_acq-DTIX30Xp2Xs4_dwi.nii.gz	2017-03-29T08:53:06.465000	n/a	6c835444
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20170329_task-rest_acq-p2_bold.nii.gz	2017-03-29T08:34:23.220000	400.000	n/a	a6682bef
+func/sub-qa_ses-20170329_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2017-03-29T08:41:17.177500	400.000	n/a	61ea5947
+dwi/sub-qa_ses-20170329_acq-DTIX30Xp2_dwi.nii.gz	2017-03-29T08:48:41.225000	238.680	n/a	dab5019e
+dwi/sub-qa_ses-20170329_acq-DTIX30Xp2Xs4_dwi.nii.gz	2017-03-29T08:53:03.880000	111.580	n/a	6c835444
