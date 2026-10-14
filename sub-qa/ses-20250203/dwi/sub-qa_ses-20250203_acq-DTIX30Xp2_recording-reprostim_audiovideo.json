@@ -1,0 +1,18 @@
+{
+  "Device": "USB Capture DVI+",
+  "DeviceSerialNumber": "B208220302195",
+  "RecordingDuration": 244.7,
+  "VideoCodec": "h264",
+  "VideoCodecRFC6381": "avc1.7A002A",
+  "VideoFrameRate": 60.0,
+  "ImageWidth": 1920,
+  "ImageHeight": 1080,
+  "ImageBitDepth": 8,
+  "ImagePixelFormat": "yuv422p",
+  "VideoFrameCount": 85408,
+  "AudioCodec": "aac",
+  "AudioCodecRFC6381": "mp4a.40.2",
+  "AudioSampleRate": 48000.0,
+  "AudioBitDepth": 16,
+  "AudioChannelCount": 2
+}

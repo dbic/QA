@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+#
+# Execute BIDS validator against dbic-QA using schema:
+#   https://bids-specification--2367.org.readthedocs.build/en/2367/schema.json
+#
+# Reference PR: https://github.com/bids-standard/bids-specification/pull/2367
+#
+set -eu
+
+name=$(basename $0)
+cd "$(dirname $0)"/..
+
+dataset_dir="$(pwd)"
+
+lock_file="$HOME/.run/${name}.lock"
+
+# Ensure the lock directory exists
+mkdir -p "$HOME/.run"
+
+{
+	mkdir -p logs/bids-validator
+	flock -n 200 || { echo "$name job is already running for $0." 2>&1 ; exit 1; }
+	REPRONIM_USE_DUCT=1 DUCT_OUTPUT_PREFIX='logs/bids-validator/{datetime_filesafe}-{pid}_' \
+	datalad containers-run -m "Run code/run-bids-validator-2367 on ${dataset_dir}" \
+		-n bids-validator \
+		--input "${dataset_dir}" \
+		--output "logs/bids-validator/*.*" \
+		-- "${dataset_dir}" \
+			--schema https://bids-specification--2367.org.readthedocs.build/en/2367/schema.json \
+			--ignoreNiftiHeaders \
+			-o "logs/bids-validator/$(date +%Y-%m-%dT%H-%M-%S)-$$_bids-validator.log"
+
+} 200>"$lock_file"
