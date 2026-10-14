@@ -1,0 +1,17 @@
+# ReproStim config for the dbic-QA dataset, skipping broken sessions.
+
+bids-inject:
+  ignore-paths:
+    # --metadata-only: media file does not exist
+    - sub-qa64/ses-20250421
+    - sub-qa64/ses-20250530
+    - sub-qa/ses-20240715
+    - sub-qa/ses-20240809
+    - sub-qa/ses-20240830
+    - sub-qa/ses-20250210
+    # ambiguous match: multiple videos per scan are not yet supported
+    - sub-qa/ses-20240325
+    - sub-qa/ses-20241216
+    # both problems (ambiguous match and missing media)
+    - sub-qa/ses-20250421
+
