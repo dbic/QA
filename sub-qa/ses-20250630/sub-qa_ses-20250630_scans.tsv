@@ -1,0 +1,8 @@
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20250630_task-rest_acq-p2_bold.nii.gz	2025-06-30T09:08:15.765000	400.000	n/a	35be4154
+func/sub-qa_ses-20250630_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2025-06-30T09:15:09.975000	400.000	n/a	b1b2d53f
+func/sub-qa_ses-20250630_acq-faX77_bold.nii.gz	2025-06-30T09:21:59.410000	400.000	n/a	eb22340e
+func/sub-qa_ses-20250630_acq-faX10_bold.nii.gz	2025-06-30T09:28:45.477500	400.000	n/a	3642b985
+dwi/sub-qa_ses-20250630_acq-DTIX30Xp2_dwi.nii.gz	2025-06-30T09:35:59.202500	238.700	n/a	d5c19013
+dwi/sub-qa_ses-20250630_acq-DTIX30Xp2Xs4_dwi.nii.gz	2025-06-30T09:40:20.447500	111.600	n/a	f6447993
+anat/sub-qa_ses-20250630_acq-MPRAGE_T1w.nii.gz	2025-06-30T09:42:11.910000	321.000	n/a	9be0521d

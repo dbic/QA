@@ -1,1 +1,3 @@
-../../.git/annex/objects/Z9/0k/SHA256E-s224--058a45ee12a369588f5a73a6116239b13ae3b5e5d0512311364f0cccb1e32344.tsv/SHA256E-s224--058a45ee12a369588f5a73a6116239b13ae3b5e5d0512311364f0cccb1e32344.tsv
+filename	acq_time	duration	operator	randstr
+dwi/sub-qa_ses-20230803_acq-DTIX30Xp2_dwi.nii.gz	2023-08-03T10:26:00.130000	7.680	n/a	14a20d66
+dwi/sub-qa_ses-20230803_acq-DTIX30Xp2_dwi__dup-01.nii.gz	2023-08-03T10:26:03.970000	238.700	n/a	09a3f549

@@ -1,1 +1,5 @@
-../../.git/annex/objects/vZ/Xw/SHA256E-s417--1d7faa775ded45d0879aad72907f6604620c02d788783e969ec614d9ee6cac73.tsv/SHA256E-s417--1d7faa775ded45d0879aad72907f6604620c02d788783e969ec614d9ee6cac73.tsv
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20170424_task-rest_acq-p2_bold.nii.gz	2017-04-24T09:20:48.190000	400.000	n/a	b719c5bf
+func/sub-qa_ses-20170424_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2017-04-24T09:27:42.182500	400.000	n/a	c2113ed6
+dwi/sub-qa_ses-20170424_acq-DTIX30Xp2_dwi.nii.gz	2017-04-24T09:35:59.232500	238.680	n/a	2e7a8a0f
+dwi/sub-qa_ses-20170424_acq-DTIX30Xp2Xs4_dwi.nii.gz	2017-04-24T09:40:22.882500	111.580	n/a	5a8cd7e6

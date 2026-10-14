@@ -1,1 +1,8 @@
-../../.git/annex/objects/zw/gG/SHA256E-s673--93b35170b1a3b0066e58b023e59a2012a87f2b7019cb029d4569f05ae666901b.tsv/SHA256E-s673--93b35170b1a3b0066e58b023e59a2012a87f2b7019cb029d4569f05ae666901b.tsv
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20220815_task-rest_acq-p2_bold.nii.gz	2022-08-15T09:50:22.040000	400.000	n/a	7f925902
+func/sub-qa_ses-20220815_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2022-08-15T09:57:16.117500	400.000	n/a	32be5fae
+func/sub-qa_ses-20220815_fa-77_bold.nii.gz	2022-08-15T10:04:02.402500	400.000	n/a	124922d9
+func/sub-qa_ses-20220815_fa-10_bold.nii.gz	2022-08-15T10:10:49.457500	400.000	n/a	e03ee1ea
+dwi/sub-qa_ses-20220815_acq-DTIX30Xp2_dwi.nii.gz	2022-08-15T10:18:02.190000	238.700	n/a	1c3a24aa
+dwi/sub-qa_ses-20220815_acq-DTIX30Xp2Xs4_dwi.nii.gz	2022-08-15T10:22:23.455000	111.600	n/a	8f8bb41c
+anat/sub-qa_ses-20220815_acq-MPRAGE_T1w.nii.gz	2022-08-15T10:24:14.960000	321.000	n/a	419c4066

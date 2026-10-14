@@ -1,1 +1,8 @@
-../../.git/annex/objects/g4/wx/SHA256E-s673--802c2c5bd629e8f5d5f48f50c95ed73824f5031e10e08f968ee5f7b866a2a0c5.tsv/SHA256E-s673--802c2c5bd629e8f5d5f48f50c95ed73824f5031e10e08f968ee5f7b866a2a0c5.tsv
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20200908_task-rest_acq-p2_bold.nii.gz	2020-09-08T09:48:39.485000	400.000	n/a	3e37fae2
+func/sub-qa_ses-20200908_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2020-09-08T09:55:34.190000	400.000	n/a	903eb131
+func/sub-qa_ses-20200908_fa-77_bold.nii.gz	2020-09-08T10:02:23.502500	400.000	n/a	4101966c
+func/sub-qa_ses-20200908_fa-10_bold.nii.gz	2020-09-08T10:09:10.475000	400.000	n/a	332fd302
+dwi/sub-qa_ses-20200908_acq-DTIX30Xp2_dwi.nii.gz	2020-09-08T10:16:35.217500	238.680	n/a	36f806c4
+dwi/sub-qa_ses-20200908_acq-DTIX30Xp2Xs4_dwi.nii.gz	2020-09-08T10:20:55.895000	111.580	n/a	736095c7
+anat/sub-qa_ses-20200908_acq-MPRAGE_T1w.nii.gz	2020-09-08T10:22:50.052500	321.000	n/a	e5ab75f6

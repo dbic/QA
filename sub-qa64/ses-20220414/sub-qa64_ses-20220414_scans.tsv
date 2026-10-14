@@ -1,1 +1,6 @@
-../../.git/annex/objects/0p/Zz/SHA256E-s519--cfe0cf3732c330fcdafb39c06e2d04ca25efd73d10ec422894daf3c5d5115032.tsv/SHA256E-s519--cfe0cf3732c330fcdafb39c06e2d04ca25efd73d10ec422894daf3c5d5115032.tsv
+filename	acq_time	duration	operator	randstr
+func/sub-qa64_ses-20220414_acq-341ms_fa-10_bold.nii.gz	2022-04-14T12:22:45.670000	68.198	n/a	59d3f22f
+func/sub-qa64_ses-20220414_acq-500ms_fa-10_bold.nii.gz	2022-04-14T12:24:00.075000	100.000	n/a	b113e561
+func/sub-qa64_ses-20220414_acq-1000ms_fa-10_bold.nii.gz	2022-04-14T12:25:46.505000	200.000	n/a	3c4aa8b8
+func/sub-qa64_ses-20220414_acq-1500ms_fa-10_bold.nii.gz	2022-04-14T12:29:13.995000	300.000	n/a	4bcb02d4
+func/sub-qa64_ses-20220414_acq-2000ms_fa-10_bold.nii.gz	2022-04-14T12:34:20.497500	400.000	n/a	07b5064f

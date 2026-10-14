@@ -1,1 +1,5 @@
-../../.git/annex/objects/Xq/VW/SHA256E-s395--7d62ea261490ef68d48c44962e631f2fe21fc6bb2d3076268ce43d242eccbfb8.tsv/SHA256E-s395--7d62ea261490ef68d48c44962e631f2fe21fc6bb2d3076268ce43d242eccbfb8.tsv
+filename	acq_time	duration	operator	randstr
+func/sub-qa64_ses-20200824_task-rest_acq-p2_bold.nii.gz	2020-08-24T08:23:32.602500	400.000	n/a	64347c14
+func/sub-qa64_ses-20200824_fa-77_bold.nii.gz	2020-08-24T08:30:23.525000	400.000	n/a	34e81036
+func/sub-qa64_ses-20200824_fa-10_bold.nii.gz	2020-08-24T08:37:10.540000	400.000	n/a	1c689731
+anat/sub-qa64_ses-20200824_acq-MPRAGE_T1w.nii.gz	2020-08-24T08:43:52.780000	321.000	n/a	0059653f

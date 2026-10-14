@@ -1,1 +1,8 @@
-../../.git/annex/objects/15/wp/SHA256E-s673--b07072304c18e6b880f93b3310ba26b5602847fbf93b8b5c902c0d9c370e660e.tsv/SHA256E-s673--b07072304c18e6b880f93b3310ba26b5602847fbf93b8b5c902c0d9c370e660e.tsv
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20210301_task-rest_acq-p2_bold.nii.gz	2021-03-01T09:21:38.792500	400.000	n/a	84420a90
+func/sub-qa_ses-20210301_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2021-03-01T09:28:34.147500	400.000	n/a	0d550329
+func/sub-qa_ses-20210301_fa-77_bold.nii.gz	2021-03-01T09:35:23.510000	400.000	n/a	e8c5fbff
+func/sub-qa_ses-20210301_fa-10_bold.nii.gz	2021-03-01T09:42:09.532500	400.000	n/a	b9cb4a24
+dwi/sub-qa_ses-20210301_acq-DTIX30Xp2_dwi.nii.gz	2021-03-01T09:49:19.372500	238.680	n/a	cf2d3f37
+dwi/sub-qa_ses-20210301_acq-DTIX30Xp2Xs4_dwi.nii.gz	2021-03-01T09:53:41.905000	111.580	n/a	d50ef468
+anat/sub-qa_ses-20210301_acq-MPRAGE_T1w.nii.gz	2021-03-01T09:55:37.040000	321.000	n/a	5e624d6c

@@ -1,0 +1,5 @@
+filename	acq_time	duration	operator	randstr
+func/sub-qa64_ses-20240212_task-rest_acq-p2_bold.nii.gz	2024-02-12T09:24:59.727500	400.000	n/a	df00fe3e
+func/sub-qa64_ses-20240212_fa-77_bold.nii.gz	2024-02-12T09:31:48.452500	400.000	n/a	3eac44b4
+func/sub-qa64_ses-20240212_fa-10_bold.nii.gz	2024-02-12T09:38:34.505000	400.000	n/a	c50d3259
+anat/sub-qa64_ses-20240212_acq-MPRAGE_T1w.nii.gz	2024-02-12T09:45:16.770000	321.000	n/a	5de595a1

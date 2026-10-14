@@ -1,1 +1,2 @@
-../../.git/annex/objects/gz/Qf/SHA256E-s167--47ff53ac028c98b99fcd6ed625e6bb01754436adc6d95f41b8b8d6cf919191d3.tsv/SHA256E-s167--47ff53ac028c98b99fcd6ed625e6bb01754436adc6d95f41b8b8d6cf919191d3.tsv
+filename	acq_time	duration	operator	randstr
+func/sub-sid000143_ses-20170406_task-rest_acq-24mm64sl1000tr32te600dyn_run-05_bold.nii.gz	2017-04-06T09:56:50.055000	100.000	n/a	cc7f8f67

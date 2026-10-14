@@ -1,1 +1,6 @@
-../../.git/annex/objects/zw/9Z/SHA256E-s505--207eabebc67f2a65a73ab0e6b344ab9695b13b433a5aeda178e411fd1e9738a0.tsv/SHA256E-s505--207eabebc67f2a65a73ab0e6b344ab9695b13b433a5aeda178e411fd1e9738a0.tsv
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20190103_task-rest_acq-p2_bold.nii.gz	2019-01-03T10:33:40.202500	400.000	n/a	44f195c9
+func/sub-qa_ses-20190103_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2019-01-03T10:40:35.145000	400.000	n/a	335039a0
+dwi/sub-qa_ses-20190103_acq-DTIX30Xp2_dwi.nii.gz	2019-01-03T10:48:52.187500	238.680	n/a	adfc66dc
+dwi/sub-qa_ses-20190103_acq-DTIX30Xp2Xs4_dwi.nii.gz	2019-01-03T10:53:15.890000	111.580	n/a	4a3d61aa
+anat/sub-qa_ses-20190103_acq-MPRAGE_T1w.nii.gz	2019-01-03T10:55:09.797500	321.000	n/a	c1bbbbc6

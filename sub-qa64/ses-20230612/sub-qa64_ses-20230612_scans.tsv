@@ -1,1 +1,5 @@
-../../.git/annex/objects/kk/G1/SHA256E-s395--7d057d235c9b54ea448505b30c2340cad708f6866b08ff35a74b7034049c3af9.tsv/SHA256E-s395--7d057d235c9b54ea448505b30c2340cad708f6866b08ff35a74b7034049c3af9.tsv
+filename	acq_time	duration	operator	randstr
+func/sub-qa64_ses-20230612_task-rest_acq-p2_bold.nii.gz	2023-06-12T10:05:31.757500	400.000	n/a	6ec6912b
+func/sub-qa64_ses-20230612_fa-77_bold.nii.gz	2023-06-12T10:12:22.447500	400.000	n/a	67b895b8
+func/sub-qa64_ses-20230612_fa-10_bold.nii.gz	2023-06-12T10:19:09.497500	400.000	n/a	28b1db5b
+anat/sub-qa64_ses-20230612_acq-MPRAGE_T1w.nii.gz	2023-06-12T10:25:51.777500	321.000	n/a	b4fe2630

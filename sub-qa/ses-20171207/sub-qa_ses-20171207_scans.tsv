@@ -1,1 +1,5 @@
-../../.git/annex/objects/4g/J1/SHA256E-s416--e9d8099e4aa9003f0f1cc97da81779b03f7b00464b2f789a456206c80602c419.tsv/SHA256E-s416--e9d8099e4aa9003f0f1cc97da81779b03f7b00464b2f789a456206c80602c419.tsv
+filename	acq_time	duration	operator	randstr
+dwi/sub-qa_ses-20171207_acq-DTIX30Xp2Xbro1_dwi.nii.gz	2017-12-07T10:32:50.162500	53.900	n/a	281fb0b2
+dwi/sub-qa_ses-20171207_acq-DTIX30Xp2Xbro2_dwi.nii.gz	2017-12-07T10:34:05.755000	238.680	n/a	542085ff
+dwi/sub-qa_ses-20171207_acq-DTIX30Xp2Xpos2_dwi.nii.gz	2017-12-07T10:38:33.697500	238.680	n/a	4e926363
+dwi/sub-qa_ses-20171207_acq-DTIX30Xp2Xori2_dwi.nii.gz	2017-12-07T10:43:01.695000	238.680	n/a	279865f6

@@ -1,1 +1,6 @@
-../../.git/annex/objects/WP/45/SHA256E-s505--e733177e508255b4bc048ba1f6bf9be609ada8abac89e9ef3c596fae2ad15a92.tsv/SHA256E-s505--e733177e508255b4bc048ba1f6bf9be609ada8abac89e9ef3c596fae2ad15a92.tsv
+filename	acq_time	duration	operator	randstr
+func/sub-qa_ses-20180507_task-rest_acq-p2_bold.nii.gz	2018-05-07T10:26:12.817500	400.000	n/a	013b76f9
+func/sub-qa_ses-20180507_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2018-05-07T10:33:07.150000	400.000	n/a	dcbe63a5
+dwi/sub-qa_ses-20180507_acq-DTIX30Xp2_dwi.nii.gz	2018-05-07T10:40:16.352500	238.680	n/a	0d5b467f
+dwi/sub-qa_ses-20180507_acq-DTIX30Xp2Xs4_dwi.nii.gz	2018-05-07T10:44:38.880000	111.580	n/a	0aa00fef
+anat/sub-qa_ses-20180507_acq-MPRAGE_T1w.nii.gz	2018-05-07T10:46:33.760000	321.000	n/a	b1f1b13c
