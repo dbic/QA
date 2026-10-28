@@ -1,7 +1,7 @@
 # ReproStim config for the dbic-QA dataset, skipping broken sessions.
 
-bids-inject:
-  ignore-paths:
+bids_inject:
+  ignore_paths:
     # --metadata-only: media file does not exist
     - sub-qa64/ses-20250421
     - sub-qa64/ses-20250530
