@@ -1,5 +1,5 @@
-filename	acq_time	duration	operator	randstr
-func/sub-qa64_ses-20210308_task-rest_acq-p2_bold.nii.gz	2021-03-08T09:40:06.200000	400.000	n/a	8b627ef9
-func/sub-qa64_ses-20210308_fa-77_bold.nii.gz	2021-03-08T09:47:03.522500	400.000	n/a	63bcdf67
-func/sub-qa64_ses-20210308_fa-10_bold.nii.gz	2021-03-08T09:53:50.522500	400.000	n/a	ccf1243a
-anat/sub-qa64_ses-20210308_acq-MPRAGE_T1w.nii.gz	2021-03-08T10:00:31.800000	321.000	n/a	af091f3b
+filename	acq_time	duration	operator	randstr	reprostim_path	reprostim_offset	reprostim_buffer_before	reprostim_buffer_after
+func/sub-qa64_ses-20210308_task-rest_acq-p2_bold.nii.gz	2021-03-08T09:40:06.200000	400.0	n/a	8b627ef9	n/a	n/a	n/a	n/a
+func/sub-qa64_ses-20210308_fa-77_bold.nii.gz	2021-03-08T09:47:03.522500	400.0	n/a	63bcdf67	n/a	n/a	n/a	n/a
+func/sub-qa64_ses-20210308_fa-10_bold.nii.gz	2021-03-08T09:53:50.522500	400.0	n/a	ccf1243a	n/a	n/a	n/a	n/a
+anat/sub-qa64_ses-20210308_acq-MPRAGE_T1w.nii.gz	2021-03-08T10:00:31.800000	321.0	n/a	af091f3b	n/a	n/a	n/a	n/a

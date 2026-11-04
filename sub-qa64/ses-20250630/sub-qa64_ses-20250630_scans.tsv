@@ -1,5 +1,9 @@
-filename	acq_time	duration	operator	randstr
-func/sub-qa64_ses-20250630_task-rest_acq-p2_bold.nii.gz	2025-06-30T08:31:45.615000	400.000	n/a	a4a9f904
-func/sub-qa64_ses-20250630_acq-faX77_bold.nii.gz	2025-06-30T08:38:36.440000	400.000	n/a	13a26338
-func/sub-qa64_ses-20250630_acq-faX10_bold.nii.gz	2025-06-30T08:45:23.547500	400.000	n/a	f4d349da
-anat/sub-qa64_ses-20250630_acq-MPRAGE_T1w.nii.gz	2025-06-30T08:52:05.757500	321.000	n/a	115351da
+filename	acq_time	duration	operator	randstr	reprostim_path	reprostim_offset	reprostim_buffer_before	reprostim_buffer_after
+func/sub-qa64_ses-20250630_task-rest_acq-p2_recording-reprostim_audiovideo.mkv	2025-06-30T08:31:42.615000	406.0	reprostim:0.7.38	n/a	Videos/2025/06/2025.06.30-08.31.39.251--2025.06.30-09.50.03.883.mkv	3.364	3.0	3.0
+func/sub-qa64_ses-20250630_task-rest_acq-p2_bold.nii.gz	2025-06-30T08:31:45.615000	400.0	n/a	a4a9f904	n/a	n/a	n/a	n/a
+func/sub-qa64_ses-20250630_acq-faX77_recording-reprostim_audiovideo.mkv	2025-06-30T08:38:33.440000	406.0	reprostim:0.7.38	n/a	Videos/2025/06/2025.06.30-08.31.39.251--2025.06.30-09.50.03.883.mkv	414.189	3.0	3.0
+func/sub-qa64_ses-20250630_acq-faX77_bold.nii.gz	2025-06-30T08:38:36.440000	400.0	n/a	13a26338	n/a	n/a	n/a	n/a
+func/sub-qa64_ses-20250630_acq-faX10_recording-reprostim_audiovideo.mkv	2025-06-30T08:45:20.547500	406.0	reprostim:0.7.38	n/a	Videos/2025/06/2025.06.30-08.31.39.251--2025.06.30-09.50.03.883.mkv	821.297	3.0	3.0
+func/sub-qa64_ses-20250630_acq-faX10_bold.nii.gz	2025-06-30T08:45:23.547500	400.0	n/a	f4d349da	n/a	n/a	n/a	n/a
+anat/sub-qa64_ses-20250630_acq-MPRAGE_recording-reprostim_audiovideo.mkv	2025-06-30T08:52:02.757500	327.0	reprostim:0.7.38	n/a	Videos/2025/06/2025.06.30-08.31.39.251--2025.06.30-09.50.03.883.mkv	1223.506	3.0	3.0
+anat/sub-qa64_ses-20250630_acq-MPRAGE_T1w.nii.gz	2025-06-30T08:52:05.757500	321.0	n/a	115351da	n/a	n/a	n/a	n/a
