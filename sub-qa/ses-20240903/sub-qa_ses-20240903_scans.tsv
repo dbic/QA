@@ -1,8 +1,15 @@
-filename	acq_time	duration	operator	randstr
-func/sub-qa_ses-20240903_task-rest_acq-p2_bold.nii.gz	2024-09-03T09:31:39.952500	400.000	n/a	6bef619c
-func/sub-qa_ses-20240903_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2024-09-03T09:38:34.197500	400.000	n/a	4f9f47a7
-func/sub-qa_ses-20240903_acq-faX77_bold.nii.gz	2024-09-03T09:45:24.407500	400.000	n/a	7e02bc10
-func/sub-qa_ses-20240903_acq-faX10_bold.nii.gz	2024-09-03T09:52:10.457500	400.000	n/a	6594d60b
-dwi/sub-qa_ses-20240903_acq-DTIX30Xp2_dwi.nii.gz	2024-09-03T09:59:24.172500	238.700	n/a	46ea608e
-dwi/sub-qa_ses-20240903_acq-DTIX30Xp2Xs4_dwi.nii.gz	2024-09-03T10:03:45.452500	111.600	n/a	771dbdd5
-anat/sub-qa_ses-20240903_acq-MPRAGE_T1w.nii.gz	2024-09-03T10:05:36.952500	321.000	n/a	9692ce28
+filename	acq_time	duration	operator	randstr	reprostim_path	reprostim_offset	reprostim_buffer_before	reprostim_buffer_after
+func/sub-qa_ses-20240903_task-rest_acq-p2_recording-reprostim_audiovideo.mkv	2024-09-03T09:31:36.952500	406.0	reprostim:0.7.38	n/a	Videos/2024/09/2024.09.01-20.02.24.441--2024.09.03-20.54.52.012.mkv	134952.511	3.0	3.0
+func/sub-qa_ses-20240903_task-rest_acq-p2_bold.nii.gz	2024-09-03T09:31:39.952500	400.0	n/a	6bef619c	n/a	n/a	n/a	n/a
+func/sub-qa_ses-20240903_task-rest_acq-p2Xs4X35mm_recording-reprostim_audiovideo.mkv	2024-09-03T09:38:31.197500	406.0	reprostim:0.7.38	n/a	Videos/2024/09/2024.09.01-20.02.24.441--2024.09.03-20.54.52.012.mkv	135366.756	3.0	3.0
+func/sub-qa_ses-20240903_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2024-09-03T09:38:34.197500	400.0	n/a	4f9f47a7	n/a	n/a	n/a	n/a
+func/sub-qa_ses-20240903_acq-faX77_recording-reprostim_audiovideo.mkv	2024-09-03T09:45:21.407500	406.0	reprostim:0.7.38	n/a	Videos/2024/09/2024.09.01-20.02.24.441--2024.09.03-20.54.52.012.mkv	135776.967	3.0	3.0
+func/sub-qa_ses-20240903_acq-faX77_bold.nii.gz	2024-09-03T09:45:24.407500	400.0	n/a	7e02bc10	n/a	n/a	n/a	n/a
+func/sub-qa_ses-20240903_acq-faX10_recording-reprostim_audiovideo.mkv	2024-09-03T09:52:07.457500	406.0	reprostim:0.7.38	n/a	Videos/2024/09/2024.09.01-20.02.24.441--2024.09.03-20.54.52.012.mkv	136183.016	3.0	3.0
+func/sub-qa_ses-20240903_acq-faX10_bold.nii.gz	2024-09-03T09:52:10.457500	400.0	n/a	6594d60b	n/a	n/a	n/a	n/a
+dwi/sub-qa_ses-20240903_acq-DTIX30Xp2_recording-reprostim_audiovideo.mkv	2024-09-03T09:59:21.172500	244.7	reprostim:0.7.38	n/a	Videos/2024/09/2024.09.01-20.02.24.441--2024.09.03-20.54.52.012.mkv	136616.731	3.0	3.0
+dwi/sub-qa_ses-20240903_acq-DTIX30Xp2_dwi.nii.gz	2024-09-03T09:59:24.172500	238.7	n/a	46ea608e	n/a	n/a	n/a	n/a
+dwi/sub-qa_ses-20240903_acq-DTIX30Xp2Xs4_recording-reprostim_audiovideo.mkv	2024-09-03T10:03:42.452500	117.6	reprostim:0.7.38	n/a	Videos/2024/09/2024.09.01-20.02.24.441--2024.09.03-20.54.52.012.mkv	136878.011	3.0	3.0
+dwi/sub-qa_ses-20240903_acq-DTIX30Xp2Xs4_dwi.nii.gz	2024-09-03T10:03:45.452500	111.6	n/a	771dbdd5	n/a	n/a	n/a	n/a
+anat/sub-qa_ses-20240903_acq-MPRAGE_recording-reprostim_audiovideo.mkv	2024-09-03T10:05:33.952500	327.0	reprostim:0.7.38	n/a	Videos/2024/09/2024.09.01-20.02.24.441--2024.09.03-20.54.52.012.mkv	136989.511	3.0	3.0
+anat/sub-qa_ses-20240903_acq-MPRAGE_T1w.nii.gz	2024-09-03T10:05:36.952500	321.0	n/a	9692ce28	n/a	n/a	n/a	n/a

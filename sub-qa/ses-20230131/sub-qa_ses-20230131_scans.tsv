@@ -1,3 +1,3 @@
-filename	acq_time	duration	operator	randstr
-func/sub-qa_ses-20230131_task-rest_acq-p2_bold.nii.gz	2023-01-31T11:11:40.772500	400.000	n/a	ab811b70
-func/sub-qa_ses-20230131_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2023-01-31T11:18:35.067500	400.000	n/a	89851573
+filename	acq_time	duration	operator	randstr	reprostim_path	reprostim_offset	reprostim_buffer_before	reprostim_buffer_after
+func/sub-qa_ses-20230131_task-rest_acq-p2_bold.nii.gz	2023-01-31T11:11:40.772500	400.0	n/a	ab811b70	n/a	n/a	n/a	n/a
+func/sub-qa_ses-20230131_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2023-01-31T11:18:35.067500	400.0	n/a	89851573	n/a	n/a	n/a	n/a

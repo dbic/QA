@@ -1,6 +1,11 @@
-filename	acq_time	duration	operator	randstr
-func/sub-qa_ses-20241004_task-rest_acq-short1_run-01_bold.nii.gz	2024-10-04T09:31:05.742500	30.000	n/a	de18bcaa
-func/sub-qa_ses-20241004_task-rest_acq-short1_run-02_bold.nii.gz	2024-10-04T09:32:15.490000	30.000	n/a	7aa1dbfb
-func/sub-qa_ses-20241004_task-rest_acq-short1_run-03_bold.nii.gz	2024-10-04T09:33:33.510000	30.000	n/a	b56ff5a4
-func/sub-qa_ses-20241004_task-rest_acq-short1_run-04_bold.nii.gz	2024-10-04T09:35:14.505000	30.000	n/a	5479478d
-func/sub-qa_ses-20241004_task-rest_acq-short1_run-05_bold.nii.gz	2024-10-04T09:36:22.497500	30.000	n/a	d832b212
+filename	acq_time	duration	operator	randstr	reprostim_path	reprostim_offset	reprostim_buffer_before	reprostim_buffer_after
+func/sub-qa_ses-20241004_task-rest_acq-short1_run-01_recording-reprostim_audiovideo.mkv	2024-10-04T09:31:02.742500	36.0	reprostim:0.7.38	n/a	Videos/2024/10/2024.10.04-09.16.57.880--2024.10.04-09.36.18.581.mkv	844.862	3.0	3.0
+func/sub-qa_ses-20241004_task-rest_acq-short1_run-01_bold.nii.gz	2024-10-04T09:31:05.742500	30.0	n/a	de18bcaa	n/a	n/a	n/a	n/a
+func/sub-qa_ses-20241004_task-rest_acq-short1_run-02_recording-reprostim_audiovideo.mkv	2024-10-04T09:32:12.490000	36.0	reprostim:0.7.38	n/a	Videos/2024/10/2024.10.04-09.16.57.880--2024.10.04-09.36.18.581.mkv	914.61	3.0	3.0
+func/sub-qa_ses-20241004_task-rest_acq-short1_run-02_bold.nii.gz	2024-10-04T09:32:15.490000	30.0	n/a	7aa1dbfb	n/a	n/a	n/a	n/a
+func/sub-qa_ses-20241004_task-rest_acq-short1_run-03_recording-reprostim_audiovideo.mkv	2024-10-04T09:33:30.510000	36.0	reprostim:0.7.38	n/a	Videos/2024/10/2024.10.04-09.16.57.880--2024.10.04-09.36.18.581.mkv	992.63	3.0	3.0
+func/sub-qa_ses-20241004_task-rest_acq-short1_run-03_bold.nii.gz	2024-10-04T09:33:33.510000	30.0	n/a	b56ff5a4	n/a	n/a	n/a	n/a
+func/sub-qa_ses-20241004_task-rest_acq-short1_run-04_recording-reprostim_audiovideo.mkv	2024-10-04T09:35:11.505000	36.0	reprostim:0.7.38	n/a	Videos/2024/10/2024.10.04-09.16.57.880--2024.10.04-09.36.18.581.mkv	1093.625	3.0	3.0
+func/sub-qa_ses-20241004_task-rest_acq-short1_run-04_bold.nii.gz	2024-10-04T09:35:14.505000	30.0	n/a	5479478d	n/a	n/a	n/a	n/a
+func/sub-qa_ses-20241004_task-rest_acq-short1_run-05_recording-reprostim_audiovideo.mkv	2024-10-04T09:36:21.256500	34.242	reprostim:0.7.38	n/a	Videos/2024/10/2024.10.04-09.36.21.256--2024.10.04-09.41.26.388.mkv	0.0	1.241	3.0
+func/sub-qa_ses-20241004_task-rest_acq-short1_run-05_bold.nii.gz	2024-10-04T09:36:22.497500	30.0	n/a	d832b212	n/a	n/a	n/a	n/a

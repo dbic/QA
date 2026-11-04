@@ -1,6 +1,6 @@
-filename	acq_time	duration	operator	randstr
-func/sub-qa_ses-20180219_task-rest_acq-p2_bold.nii.gz	2018-02-19T09:32:55.197500	400.000	n/a	6a619bfb
-func/sub-qa_ses-20180219_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2018-02-19T09:39:50.137500	400.000	n/a	641d21ed
-dwi/sub-qa_ses-20180219_acq-DTIX30Xp2_dwi.nii.gz	2018-02-19T09:47:17.225000	238.680	n/a	776a0825
-dwi/sub-qa_ses-20180219_acq-DTIX30Xp2Xs4_dwi.nii.gz	2018-02-19T09:51:37.880000	111.580	n/a	a96daa1e
-anat/sub-qa_ses-20180219_acq-MPRAGE_T1w.nii.gz	2018-02-19T09:53:32.775000	321.000	n/a	a4286b9f
+filename	acq_time	duration	operator	randstr	reprostim_path	reprostim_offset	reprostim_buffer_before	reprostim_buffer_after
+func/sub-qa_ses-20180219_task-rest_acq-p2_bold.nii.gz	2018-02-19T09:32:55.197500	400.0	n/a	6a619bfb	n/a	n/a	n/a	n/a
+func/sub-qa_ses-20180219_task-rest_acq-p2Xs4X35mm_bold.nii.gz	2018-02-19T09:39:50.137500	400.0	n/a	641d21ed	n/a	n/a	n/a	n/a
+dwi/sub-qa_ses-20180219_acq-DTIX30Xp2_dwi.nii.gz	2018-02-19T09:47:17.225000	238.68	n/a	776a0825	n/a	n/a	n/a	n/a
+dwi/sub-qa_ses-20180219_acq-DTIX30Xp2Xs4_dwi.nii.gz	2018-02-19T09:51:37.880000	111.58	n/a	a96daa1e	n/a	n/a	n/a	n/a
+anat/sub-qa_ses-20180219_acq-MPRAGE_T1w.nii.gz	2018-02-19T09:53:32.775000	321.0	n/a	a4286b9f	n/a	n/a	n/a	n/a
