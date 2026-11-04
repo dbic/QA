@@ -1,2 +1,2 @@
-filename	acq_time	duration	operator	randstr
-func/sub-sid000143_ses-20170406_task-rest_acq-24mm64sl1000tr32te600dyn_run-05_bold.nii.gz	2017-04-06T09:56:50.055000	100.000	n/a	cc7f8f67
+filename	acq_time	duration	operator	randstr	reprostim_path	reprostim_offset	reprostim_buffer_before	reprostim_buffer_after
+func/sub-sid000143_ses-20170406_task-rest_acq-24mm64sl1000tr32te600dyn_run-05_bold.nii.gz	2017-04-06T09:56:50.055000	100.0	n/a	cc7f8f67	n/a	n/a	n/a	n/a
