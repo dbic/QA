@@ -6,7 +6,7 @@ bids_inject:
     - sub-qa64/ses-20250421
     - sub-qa64/ses-20250530
     - sub-qa/ses-20240715
-    - sub-qa/ses-20240809
+#    - sub-qa/ses-20240809
     - sub-qa/ses-20240830
     - sub-qa/ses-20250210
     - sub-qa/ses-20250814
