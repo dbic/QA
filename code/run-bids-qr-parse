@@ -20,6 +20,10 @@ lock_file="$HOME/.run/${name}.lock"
 session_dir="${1:-sub-qa64/ses-20250811}"
 #session_dir="sub-qa/ses-20240809"
 
+echo "DEBUG: argument 1 = ${1:-<not provided>}"
+echo "DEBUG: session_dir = $session_dir"
+echo "DEBUG: working directory = $(pwd)"
+
 # Ensure the lock directory exists
 mkdir -p "$HOME/.run"
 
