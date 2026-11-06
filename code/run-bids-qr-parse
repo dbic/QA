@@ -8,7 +8,7 @@ set -eu
 name=$(basename "$0")
 cd "$(dirname "$0")"/..
 
-img="code/containers/images/repronim/repronim-reprostim--0.7.34.sif"
+img="code/containers/images/repronim/repronim-reprostim--0.7.38.sif"
 lock_file="$HOME/.run/${name}.lock"
 
 # hardcoded sessions dir to be investigated
